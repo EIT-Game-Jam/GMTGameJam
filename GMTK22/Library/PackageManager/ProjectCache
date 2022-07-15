@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637934899158413745
-    m_Hash: 2488401325
+      ticks: 637934927783568308
+    m_Hash: 90023563
   m_LockFileStatus:
     m_FilePath: C:/Users/dexti/Dokumenter/GitHub/GMTGameJam/GMTK22/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637934899539929061
-    m_Hash: 301391453
+      ticks: 637934927783568308
+    m_Hash: 363444353
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
