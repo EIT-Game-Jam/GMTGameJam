@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637935211168302172
+      ticks: 637935212564882075
     m_Hash: 884535303
   m_LockFileStatus:
     m_FilePath: C:/gusta/Documents/GitHub/GMTGameJam/GMTK22/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637935211168307168
+      ticks: 637935212564892075
     m_Hash: 1583597519
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
