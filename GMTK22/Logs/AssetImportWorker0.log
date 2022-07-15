@@ -518,3 +518,170 @@ Received Import Request.
   path: Assets/Art
   artifactKey: Guid(1557b33f2150c3b4783acc6175d9c43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art using Guid(1557b33f2150c3b4783acc6175d9c43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c75d209f482a6b47b76196dbce576a') in 0.011015 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Domain Reload Profiling:
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4391 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (190.9 KB). Loaded Objects now: 4868.
+Memory consumption went from 163.9 MB to 163.8 MB.
+Total: 2.787700 ms (FindLiveObjects: 0.264700 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.296500 ms  DeleteObjects: 0.112000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 290.386767 seconds.
+  path: Assets/Art/Tomat.png
+  artifactKey: Guid(d51b0a414ec624947a0c46a2ef8ac922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tomat.png using Guid(d51b0a414ec624947a0c46a2ef8ac922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635a483e7c881e8f86054465349b784d') in 0.100814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.479870 seconds.
+  path: Assets/Art/Cucumber
+  artifactKey: Guid(9027e171e6545534ea8a45b421cd8235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber using Guid(9027e171e6545534ea8a45b421cd8235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c449d58bc88cb50888bcfc665e9830') in 0.004696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052183 seconds.
+  path: Assets/Art/Cucumber/Cucumber.png
+  artifactKey: Guid(b05aa320dbf60604d913fb6105cd1d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/Cucumber.png using Guid(b05aa320dbf60604d913fb6105cd1d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d1e81a351dcd95af51c0f53b44fdd6') in 0.024805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll2.png
+  artifactKey: Guid(6b47c1983158bc34abd9018104806513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll2.png using Guid(6b47c1983158bc34abd9018104806513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43274150ad2319ea10d455907159b1e') in 0.022850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll14.png
+  artifactKey: Guid(ffb0c8d57994c3641a975b8f2bf4bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll14.png using Guid(ffb0c8d57994c3641a975b8f2bf4bf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221ab9f65f1d6398ed603aad9f60ba5c') in 0.022799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll27.png
+  artifactKey: Guid(3034268e859521d4a900f9ef505bd93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll27.png using Guid(3034268e859521d4a900f9ef505bd93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a581bc7813c1b30ff5f076cc758b8279') in 0.018571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll15.png
+  artifactKey: Guid(8024a70df1b33ea42bf83f8ef05f9bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll15.png using Guid(8024a70df1b33ea42bf83f8ef05f9bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876442640338b1e9b0fcec0c87f30e9c') in 0.020267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll6.png
+  artifactKey: Guid(f7c4d58b65984104a815245e4e4c3f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll6.png using Guid(f7c4d58b65984104a815245e4e4c3f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1562378ae22fa46f792df8b1194b6054') in 0.025985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll17.png
+  artifactKey: Guid(6a8c1b79467ca0f44b3c1e32f29585b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll17.png using Guid(6a8c1b79467ca0f44b3c1e32f29585b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37300a1c14df41a3dd6f03a758b23703') in 0.020839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll10.png
+  artifactKey: Guid(46c197841cd982d44a35d06b4f48d65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll10.png using Guid(46c197841cd982d44a35d06b4f48d65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2764e573452b7e9113932945e90e9c') in 0.018329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll5.png
+  artifactKey: Guid(f9f1a39942f2abd4fb2fd0a5aab02648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll5.png using Guid(f9f1a39942f2abd4fb2fd0a5aab02648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3531505626c81b156c6c92aa88b660') in 0.021000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll9.png
+  artifactKey: Guid(41170438061f2374bb77313b951532b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll9.png using Guid(41170438061f2374bb77313b951532b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677dfbbfea346ac786fcbe83a247aeff') in 0.018987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll25.png
+  artifactKey: Guid(18fbfdcab2b74044fa44fb00af46cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll25.png using Guid(18fbfdcab2b74044fa44fb00af46cadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7910a3e8e07e01e10ece3d272ef9a130') in 0.020034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll4.png
+  artifactKey: Guid(d6bd894d0ab66274db01ccd5f0dfa56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll4.png using Guid(d6bd894d0ab66274db01ccd5f0dfa56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a2e5cf6b31a540a68145f10af18a7c') in 0.019723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll26.png
+  artifactKey: Guid(175abfee4ee005040ba61c70781eb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll26.png using Guid(175abfee4ee005040ba61c70781eb745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbc8381effb83e593f547f2aa7489da') in 0.018954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll12.png
+  artifactKey: Guid(edf2d212a93e5e043afa5074172d4128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll12.png using Guid(edf2d212a93e5e043afa5074172d4128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd536db3deef099ed542f27a1ebcaf2fd') in 0.021787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll16.png
+  artifactKey: Guid(b0624e01fcd696f408dcfdcdc6ad2dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll16.png using Guid(b0624e01fcd696f408dcfdcdc6ad2dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da4ae3e531d4089dedb3738655ea6b5') in 0.021514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/Cucumber/CucumberRoll7.png
+  artifactKey: Guid(f27bafb2fae694549a940d6767884ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cucumber/CucumberRoll7.png using Guid(f27bafb2fae694549a940d6767884ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427728c71949a82e8ab172c083395c9d') in 0.022968 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
