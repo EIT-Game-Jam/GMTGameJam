@@ -201,6 +201,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 25415385}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &25415389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,6 +217,8 @@ MonoBehaviour:
   original: {fileID: 25415387}
   newSprite: {fileID: 21300000, guid: 26c21a1d9be3263439008accc1d15b77, type: 3}
   oldSprite: {fileID: 21300000, guid: cbdc1aa545c64e94b87ea7e7c0afee02, type: 3}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 --- !u!1 &40905807
@@ -338,9 +341,12 @@ RectTransform:
   - {fileID: 1090278811}
   - {fileID: 1565797605}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 956938588}
   - {fileID: 1595206731}
   - {fileID: 676694979}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
   m_Father: {fileID: 2135438772}
@@ -413,6 +419,7 @@ Canvas:
   m_SortingOrder: 0
   m_TargetDisplay: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &79891190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,6 +435,8 @@ MonoBehaviour:
   original: {fileID: 0}
   newSprite: {fileID: 0}
   oldSprite: {fileID: 0}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 --- !u!1 &102762674
@@ -3347,6 +3356,7 @@ RectTransform:
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &676694978
 GameObject:
   m_ObjectHideFlags: 0
@@ -3532,6 +3542,8 @@ MonoBehaviour:
   original: {fileID: 676694981}
   newSprite: {fileID: 21300000, guid: fb7cdbf4bec6a8d41865698935ecec2a, type: 3}
   oldSprite: {fileID: 21300000, guid: 903955a0ed940904e8336885630cf916, type: 3}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 --- !u!1 &685727859
@@ -4670,6 +4682,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 903753379}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &956938587
 GameObject:
   m_ObjectHideFlags: 0
@@ -4767,6 +4780,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956938587}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 --- !u!1 &970038515
@@ -7342,6 +7357,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1565797604}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1595206730
 GameObject:
   m_ObjectHideFlags: 0
@@ -7527,6 +7543,8 @@ MonoBehaviour:
   original: {fileID: 1595206733}
   newSprite: {fileID: 21300000, guid: fb7cdbf4bec6a8d41865698935ecec2a, type: 3}
   oldSprite: {fileID: 21300000, guid: 903955a0ed940904e8336885630cf916, type: 3}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 --- !u!1 &1595288794
@@ -8885,6 +8903,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1957289004}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &1957289008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8900,6 +8919,8 @@ MonoBehaviour:
   original: {fileID: 1957289006}
   newSprite: {fileID: 21300000, guid: 26c21a1d9be3263439008accc1d15b77, type: 3}
   oldSprite: {fileID: 21300000, guid: cbdc1aa545c64e94b87ea7e7c0afee02, type: 3}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 --- !u!1 &1962686844
