@@ -10,6 +10,7 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 0, "tid": 1, "ts": 1658011615204296, "dur": 1715652, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1658011615205452, "dur": 98919, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1658011615304508, "dur": 207178, "ph": "X", "name": "Run Backend", "args": {} },
@@ -27,6 +28,8 @@
 { "pid": 0, "tid": 1, "ts": 1658011636461187, "dur": 22, "ph": "X", "name": "", "args": {} },
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 92770458 (Merge with Malthe)
 { "pid": 0, "tid": 1, "ts": 1658011114699599, "dur": 1505543, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1658011114700945, "dur": 105439, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1658011114806513, "dur": 115340, "ph": "X", "name": "Run Backend", "args": {} },
@@ -3840,6 +3843,9 @@
 ,{ "pid": 0, "tid": 1, "ts": 1658009237406202, "dur": 2243, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1658009237404291, "dur": 4174, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of 92770458 (Merge with Malthe)
+=======
 >>>>>>> parent of 92770458 (Merge with Malthe)
 {}
 

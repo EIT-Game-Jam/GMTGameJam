@@ -2,6 +2,7 @@
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 35942, "tid": 1, "ts": 1658011635284018, "dur": 586779, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658011635284908, "dur": 82014, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658011635763291, "dur": 2625, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -11,6 +12,8 @@
 { "pid": 35942, "tid": 1, "ts": 1658011635874287, "dur": 1714, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 92770458 (Merge with Malthe)
 { "pid": 35942, "tid": 1, "ts": 1658011115021108, "dur": 532347, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658011115022070, "dur": 79597, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658011115466337, "dur": 6488, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -27,4 +30,7 @@
 { "pid": 35942, "tid": 1, "ts": 1658004844257865, "dur": 850, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658004844257203, "dur": 1537, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of 92770458 (Merge with Malthe)
+=======
 >>>>>>> parent of 92770458 (Merge with Malthe)
