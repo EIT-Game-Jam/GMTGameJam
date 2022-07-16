@@ -13,16 +13,18 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     public Animator animator;
 
-    Vector2 movement;
+    private Vector2 movement;
     private bool used = false;
     private bool shift = false;
     public bool ifTwoPlayer = false;
+
+    private bool justShifted = false;
 
 
     public void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
-        Debug.Log(movement);
+        Debug.Log(this.gameObject.name + ": " + movement);
 
     }
 
@@ -36,12 +38,23 @@ public class PlayerMovement : MonoBehaviour
         if(ifTwoPlayer == false)
         {
         shift = context.action.triggered;
-        if(shift){
+        if(shift == true && justShifted == false){
+
+            Debug.Log(this.gameObject.name + ": " + shift);
             otherPlayer.GetComponent<PlayerMovement>().enabled = true;
+            
             GetComponent<PlayerMovement>().enabled = false;
+            
             
         }
         }
+    }
+
+
+    public void OnEnable()
+    {
+        justShifted = true;
+
     }
 
 
@@ -50,15 +63,44 @@ public class PlayerMovement : MonoBehaviour
       
     }
 
+    void awake()
+    {
+        used = false;
+        shift = false;
+
+        
+    }
+
+    void Start()
+    {
+
+        
+        if(this.gameObject.name == "Tomato(Clone)")
+        {
+            otherPlayer = GameObject.Find("Cucumber(Clone)");
+        }
+        else
+        {
+            otherPlayer = GameObject.Find("Tomato(Clone)");
+        }
+
+
+    }
+
     // Update is called once per frame
     void Update()
     {
         //input
-        /*
        animator.SetFloat("Horizontal", movement.x);
        animator.SetFloat("Vertical", movement.y);
        animator.SetFloat("Speed", movement.magnitude);
-       */
+       
+       
+        if(shift == false)
+        {
+            justShifted = false;
+        }
+
     }
 
 
