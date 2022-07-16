@@ -5,6 +5,9 @@ using UnityEngine;
 public class MenuController : MonoBehaviour
 {
     public GameObject settingMenu;
+    public GameObject tutorial;
+    public GameObject credit;
+
 
     // Start is called before the first frame update
     void Start()
@@ -17,9 +20,20 @@ public class MenuController : MonoBehaviour
     {
 
     }
+    
     public void settingsMenu()
     {
         settingMenu.SetActive(true);
 
     }
+
+    public void tutorialMenu()
+    {
+        tutorial.SetActive(true);
+    }
+
+    public void creditMenu()
+    {
+        credit.SetActive(true);
+    }   
 }
