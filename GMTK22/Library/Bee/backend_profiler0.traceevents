@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1658004310736684, "dur":14142, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1658004310750845, "dur":1153, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1658004310752217, "dur":68, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -3480,6 +3481,8 @@
 ,{ "pid":12345, "tid":0, "ts":1658003596716960, "dur":3561, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> Gustav
 =======
+=======
+>>>>>>> Malthe
 ,{ "pid":12345, "tid":0, "ts":1657998897144566, "dur":1232, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1657998897145805, "dur":654, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1657998897146584, "dur":47, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -5198,5 +5201,8 @@
 ,{ "pid":12345, "tid":16, "ts":1657998897188351, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":16, "ts":1657998897188395, "dur":797962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1657998897990426, "dur":4359, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
+>>>>>>> Malthe
+=======
 >>>>>>> Malthe
 ,
