@@ -1,6 +1,7 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1658011635112244, "dur":1446, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1658011635113696, "dur":575, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1658011635114372, "dur":48, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -72,6 +73,8 @@
 ,{ "pid":12345, "tid":0, "ts":1658011635125664, "dur":594, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 92770458 (Merge with Malthe)
 =======
 >>>>>>> parent of 92770458 (Merge with Malthe)
 ,{ "pid":12345, "tid":0, "ts":1658011114833178, "dur":1848, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
@@ -1884,6 +1887,9 @@
 ,{ "pid":12345, "tid":0, "ts":1658009237241418, "dur":3388, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> main
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 92770458 (Merge with Malthe)
+=======
 >>>>>>> parent of 92770458 (Merge with Malthe)
 =======
 >>>>>>> parent of 92770458 (Merge with Malthe)
