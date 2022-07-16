@@ -20,13 +20,15 @@ public class PlayerMovement : MonoBehaviour
 
     private bool justShifted = false;
 
+    private SpriteRenderer mySpriteRenderer;
+
 
     public void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
         Debug.Log(this.gameObject.name + ": " + movement);
 
-    }
+    } 
 
     public void OnUse(InputAction.CallbackContext context)
     {
@@ -63,11 +65,12 @@ public class PlayerMovement : MonoBehaviour
       
     }
 
-    void awake()
+    void Awake()
     {
         used = false;
         shift = false;
 
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
         
     }
 
@@ -100,7 +103,24 @@ public class PlayerMovement : MonoBehaviour
         {
             justShifted = false;
         }
-
+        if(this.gameObject.name == "Tomato(Clone)"){
+            if(movement.x < 0 && mySpriteRenderer.flipX == false){
+                if(mySpriteRenderer!= null){
+                    mySpriteRenderer.flipX = true;
+                }
+            }
+            if(movement.x > 0){
+                mySpriteRenderer.flipX = false;
+            }
+            if(movement.y > 0){
+                if(movement.x > 0){
+                    mySpriteRenderer.flipX = true;
+                }
+                else if(movement.x < 0){
+                    mySpriteRenderer.flipX = false;
+                }
+            }        
+        }
     }
 
 
@@ -110,4 +130,5 @@ public class PlayerMovement : MonoBehaviour
         //Movement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
+
 }
