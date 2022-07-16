@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5740594110114300157}
   - component: {fileID: 5740594110114300098}
   - component: {fileID: 5740594110114300159}
+  - component: {fileID: 1934043041439083550}
   m_Layer: 0
   m_Name: Cucumber
   m_TagString: Untagged
@@ -29,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5740594110114300102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.06381978, y: 0.8066424, z: 0}
-  m_LocalScale: {x: 0.30173, y: 0.30173, z: 0.30173}
+  m_LocalPosition: {x: 0.97, y: 0.08, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -205,7 +206,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &5740594110114300098
 MonoBehaviour:
@@ -223,7 +224,9 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 5740594110114300157}
   animator: {fileID: 5740594110114300159}
-  ifTwoPlayer: 0
+  ifTwoPlayer: 1
+  mainCamera: {fileID: 0}
+  lerpSpeed: 5
 --- !u!95 &5740594110114300159
 Animator:
   serializedVersion: 4
@@ -244,3 +247,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &1934043041439083550
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5740594110114300102}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.16, y: -0.04}
+  m_Size: {x: 8.53, y: 1.54}
+  m_Direction: 1

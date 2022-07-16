@@ -77,6 +77,34 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 4bcb14e5-13ad-4495-9157-755025fd00b1
     m_ActionName: Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1d81149b-0482-4c80-a6cc-ed1854e800a7
+    m_ActionName: Player/Use button[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9412fdcb-ed1b-4703-a3ba-5787626a65f4
+    m_ActionName: Player/Shift character[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5d1ce207-49a3-4f03-9eb6-cbc43a114f65
+    m_ActionName: Player/TwoPlayer[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d9af43e1-b7a4-4564-81a5-83131fbbfc21
+    m_ActionName: Player2/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9951e6f1-1130-4b32-b5dd-b054133b83bf
+    m_ActionName: Player2/Use button[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8e072235-e8cc-4b8e-ae19-76c526de304b
+    m_ActionName: Player2/Shift character[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 98f35001-b780-4887-9f7a-5dbb81122149
+    m_ActionName: Player2/TwoPlayer[/Keyboard/p]
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Keyboard
   m_DefaultActionMap: Player
@@ -122,7 +150,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 997f89336a6b77145b3c4b2504dcfab8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -167,9 +195,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff510edbd2292254b895b9322e2851a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherPlayer: {fileID: 0}
   moveSpeed: 5
   rb: {fileID: 4703893380813030430}
   animator: {fileID: 4703893380813030428}
+  ifTwoPlayer: 0
 --- !u!95 &4703893380813030428
 Animator:
   serializedVersion: 4

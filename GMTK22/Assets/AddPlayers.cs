@@ -14,6 +14,8 @@ public class AddPlayers : MonoBehaviour
     public PlayerInput cucumberInput;
     public PlayerInput tomatoInput;
 
+    public bool ifTwoPlayer = true;
+
     void awake()
     {
         
@@ -25,9 +27,19 @@ public class AddPlayers : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cucumberInput = PlayerInput.Instantiate(cucumber, controlScheme: "Keyboard", pairWithDevice: Keyboard.current);
-        tomatoInput = PlayerInput.Instantiate(tomato, controlScheme: "Keyboard2", pairWithDevice: Keyboard.current);
-        
+        if(ifTwoPlayer == false){
+            cucumberInput = PlayerInput.Instantiate(cucumber, controlScheme: "Keyboard", pairWithDevice: Keyboard.current);
+            tomatoInput = PlayerInput.Instantiate(tomato, controlScheme: "Keyboard2", pairWithDevice: Keyboard.current);
+            cucumberInput.transform.position = cucumberSpawn.position;
+            tomatoInput.transform.position = tomatoSpawn.position;
+    }
+
+        if(ifTwoPlayer == true){
+            cucumberInput = PlayerInput.Instantiate(cucumber, controlScheme: "Keyboard", pairWithDevice: Keyboard.current);
+            tomatoInput = PlayerInput.Instantiate(tomato, controlScheme: "Arrow", pairWithDevice: Keyboard.current);
+            cucumberInput.transform.position = cucumberSpawn.position;
+            tomatoInput.transform.position = tomatoSpawn.position;
+        }
     }
 
     // Update is called once per frame

@@ -16,11 +16,20 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     private bool used = false;
     private bool shift = false;
-    public bool ifTwoPlayer = false;
+    public bool ifTwoPlayer = true;
 
     private bool justShifted = false;
 
     private SpriteRenderer mySpriteRenderer;
+
+    public Camera mainCamera;
+
+    [SerializeField] private float lerpSpeed;
+
+    private float elapsedTime = 0;
+
+    public CapsuleCollider2D cucumberCol;
+
 
 
     public void OnMove(InputAction.CallbackContext context)
@@ -32,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnUse(InputAction.CallbackContext context)
     {
-        
+        used = context.action.triggered;
     }
 
     public void OnShift(InputAction.CallbackContext context)
@@ -71,6 +80,11 @@ public class PlayerMovement : MonoBehaviour
         shift = false;
 
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+
+        mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
+        mainCamera.transform.parent = this.transform;
+        
         
     }
 
@@ -85,9 +99,13 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             otherPlayer = GameObject.Find("Tomato(Clone)");
+            cucumberCol = GetComponent<CapsuleCollider2D>();
         }
 
-
+        if(ifTwoPlayer == true)
+        {
+            otherPlayer.GetComponent<PlayerMovement>().enabled = true;
+        }
     }
 
     // Update is called once per frame
@@ -98,7 +116,18 @@ public class PlayerMovement : MonoBehaviour
        animator.SetFloat("Vertical", movement.y);
        animator.SetFloat("Speed", movement.magnitude);
        
-       
+       if(transform.Find("Main Camera") == null && ifTwoPlayer == false){
+            mainCamera.transform.parent = null;
+            elapsedTime += Time.deltaTime;
+            var percentageComplete = elapsedTime/lerpSpeed;
+
+            mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, new Vector3(transform.position.x, transform.position.y, -10), percentageComplete);
+            if(mainCamera.transform.position == new Vector3(transform.position.x, transform.position.y, -10)){
+                mainCamera.transform.parent = this.transform;
+                elapsedTime = 0;
+            }
+       }
+
         if(shift == false)
         {
             justShifted = false;
@@ -120,6 +149,14 @@ public class PlayerMovement : MonoBehaviour
                     mySpriteRenderer.flipX = false;
                 }
             }        
+        }
+        else{
+            if(movement.x != 0 && movement.y == 0){
+                cucumberCol.direction = CapsuleDirection2D.Vertical;
+            }
+            else{
+                cucumberCol.direction = CapsuleDirection2D.Horizontal;
+            }
         }
     }
 
