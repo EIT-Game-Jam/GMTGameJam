@@ -249,8 +249,12 @@ GameObject:
   - component: {fileID: 6843516122544586240}
   - component: {fileID: 3201145738436172321}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: -122783687979440108}
   - component: {fileID: 309183319246315304}
+=======
+  - component: {fileID: -752666799778794384}
+>>>>>>> main
 =======
   - component: {fileID: -752666799778794384}
 >>>>>>> main
@@ -271,7 +275,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.4, y: 182.3, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalScale: {x: 2.416763, y: 2.416763, z: 2.416763}
+=======
+  m_LocalScale: {x: 6.489, y: 6.489, z: 6.489}
+>>>>>>> main
 =======
   m_LocalScale: {x: 6.489, y: 6.489, z: 6.489}
 >>>>>>> main
@@ -365,7 +373,11 @@ CircleCollider2D:
   serializedVersion: 2
   m_Radius: 1.56
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &-122783687979440108
+=======
+--- !u!114 &-752666799778794384
+>>>>>>> main
 =======
 --- !u!114 &-752666799778794384
 >>>>>>> main
@@ -377,6 +389,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7213438938487665114}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 05e8a07ccf41309478e4333dad01203d, type: 3}
   m_Name: 
@@ -406,10 +419,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 =======
+=======
+>>>>>>> main
   m_Script: {fileID: 11500000, guid: 5694b290681b7ed49bd7f9d014e34434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   UI: {fileID: 0}
   readyToBeUsed: 0
   once: 0
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main

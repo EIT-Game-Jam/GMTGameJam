@@ -15,17 +15,23 @@ public class AddPlayers : MonoBehaviour
     public PlayerInput tomatoInput;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public GameObject divider;
 
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
     public bool ifTwoPlayer = true;
 =======
     public GameObject divider;
 
 
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
     void awake()
@@ -45,9 +51,15 @@ public class AddPlayers : MonoBehaviour
             cucumberInput.transform.position = cucumberSpawn.position;
             tomatoInput.transform.position = tomatoSpawn.position;
 <<<<<<< HEAD
+<<<<<<< HEAD
             divider.SetActive(false);
 =======
 <<<<<<< HEAD
+=======
+            divider.SetActive(false);
+>>>>>>> origin/Malthe
+>>>>>>> main
+=======
 =======
             divider.SetActive(false);
 >>>>>>> origin/Malthe

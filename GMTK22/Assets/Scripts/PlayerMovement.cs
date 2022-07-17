@@ -17,10 +17,17 @@ public class PlayerMovement : MonoBehaviour
     public bool used = false;
     private bool shift = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
     public bool ifTwoPlayer = true;
 >>>>>>> main
+
+    public bool isPaused = false;
+=======
+>>>>>>> origin/Malthe
 
     public bool isPaused = false;
 =======
@@ -41,7 +48,11 @@ public class PlayerMovement : MonoBehaviour
     public GameObject followCamera;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public int diceNum = 0;
+=======
+    private bool once;
+>>>>>>> main
 
 =======
 <<<<<<< HEAD
@@ -60,15 +71,29 @@ public class PlayerMovement : MonoBehaviour
 
 >>>>>>> origin/Malthe
 
+    public void Paused(InputAction.CallbackContext context)
+    {
+        isPaused = context.action.triggered;
+    }
+
+=======
+    public int diceNum = 0;
+
+
+>>>>>>> origin/Malthe
+
     public void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
     }
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
         Debug.Log(this.gameObject.name + ": " + movement);
 
     }
@@ -77,6 +102,9 @@ public class PlayerMovement : MonoBehaviour
 
     } 
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
     public void OnUse(InputAction.CallbackContext context)
@@ -88,9 +116,26 @@ public class PlayerMovement : MonoBehaviour
     {
 <<<<<<< HEAD
         if (PlayerPrefs.GetInt("TwoPlayer") == 0)
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         if (PlayerPrefs.GetInt("TwoPlayer") == 0)
+=======
+        {
+            shift = context.action.triggered;
+            if (shift == true && justShifted == false)
+            {
+
+                Debug.Log(this.gameObject.name + ": " + shift);
+                otherPlayer.GetComponent<PlayerMovement>().enabled = true;
+
+                GetComponent<PlayerMovement>().enabled = false;
+
+
+            }
+=======
+        if(PlayerPrefs.GetInt("TwoPlayer") == 0)
+>>>>>>> main
         {
             shift = context.action.triggered;
             if (shift == true && justShifted == false)
@@ -128,6 +173,9 @@ public class PlayerMovement : MonoBehaviour
             
         }
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
         }
     }
@@ -147,7 +195,12 @@ public class PlayerMovement : MonoBehaviour
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> origin/Malthe
+>>>>>>> main
 =======
       
 >>>>>>> origin/Malthe
@@ -164,19 +217,25 @@ public class PlayerMovement : MonoBehaviour
 
         mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
         if (PlayerPrefs.GetInt("TwoPlayer") == 0)
         {
             mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
             mainCamera.transform.parent = this.transform;
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 
 
 
 =======
+=======
+>>>>>>> main
         }
         once = false;
 =======
@@ -186,6 +245,9 @@ public class PlayerMovement : MonoBehaviour
         }
         
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
     }
 
@@ -197,8 +259,14 @@ public class PlayerMovement : MonoBehaviour
         if (this.gameObject.name == "Tomato(Clone)")
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if (this.gameObject.name == "Tomato(Clone)")
+=======
+        
+        if(this.gameObject.name == "Tomato(Clone)")
+>>>>>>> origin/Malthe
+>>>>>>> main
 =======
         
         if(this.gameObject.name == "Tomato(Clone)")
@@ -213,6 +281,7 @@ public class PlayerMovement : MonoBehaviour
             cucumberCol = GetComponent<CapsuleCollider2D>();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (this.gameObject.name != "Tomato(Clone)")
         {
@@ -230,6 +299,8 @@ public class PlayerMovement : MonoBehaviour
                 followCamera.GetComponent<Camera>().rect = new Rect(0.5f, 0, 0.5f, 1);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
         if (PlayerPrefs.GetInt("TwoPlayer") == 1)
         {
             otherPlayer.GetComponent<PlayerMovement>().enabled = true;
@@ -245,6 +316,9 @@ public class PlayerMovement : MonoBehaviour
             if(this.gameObject.name != "Tomato(Clone)"){
                 followCamera.GetComponent<Camera>().rect = new Rect(0.5f,0,0.5f,1);
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
             }
         }
@@ -258,6 +332,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.magnitude);
+<<<<<<< HEAD
         animator.SetInteger("ChoppedUp",diceNum);
 
         if (transform.Find("Main Camera") == null && PlayerPrefs.GetInt("TwoPlayer") == 0)
@@ -267,6 +342,8 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.magnitude);
+=======
+>>>>>>> main
 
         if (transform.Find("Main Camera") == null && PlayerPrefs.GetInt("TwoPlayer") == 0)
         {
@@ -327,6 +404,9 @@ public class PlayerMovement : MonoBehaviour
        animator.SetFloat("Speed", movement.magnitude);
        
        if(transform.Find("Main Camera") == null && PlayerPrefs.GetInt("TwoPlayer") == 0){
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
             mainCamera.transform.parent = null;
             elapsedTime += Time.deltaTime;
@@ -383,6 +463,9 @@ public class PlayerMovement : MonoBehaviour
 =======
             else{
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
                 cucumberCol.direction = CapsuleDirection2D.Horizontal;
                 cucumberCol.size = new Vector2(8.53f, 1.54f);

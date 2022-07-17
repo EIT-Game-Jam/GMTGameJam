@@ -59,13 +59,19 @@ Camera:
   far clip plane: 1000
   field of view: 90
 <<<<<<< HEAD
+<<<<<<< HEAD
   orthographic: 1
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
   orthographic: 0
 =======
   orthographic: 1
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
   orthographic size: 5
   m_Depth: 0

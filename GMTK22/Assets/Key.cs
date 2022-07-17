@@ -19,7 +19,11 @@ public class Key : MonoBehaviour
     public void Use(Collider2D col)
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+        Debug.Log(col);
+>>>>>>> main
 =======
         Debug.Log(col);
 >>>>>>> main
@@ -30,7 +34,10 @@ public class Key : MonoBehaviour
             GetComponent<CircleCollider2D>().enabled = false;
             transform.parent = col.transform;
 <<<<<<< HEAD
+<<<<<<< HEAD
             GetComponent<UseStuff>().enabled = false;   
+=======
+>>>>>>> main
 =======
 >>>>>>> main
 

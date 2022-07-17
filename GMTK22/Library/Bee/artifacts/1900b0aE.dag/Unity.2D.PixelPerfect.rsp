@@ -116,9 +116,15 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
 <<<<<<< HEAD
+<<<<<<< HEAD
 -define:ENABLE_LEGACY_INPUT_MANAGER
 =======
 <<<<<<< HEAD
+=======
+-define:ENABLE_LEGACY_INPUT_MANAGER
+>>>>>>> origin/Malthe
+>>>>>>> main
+=======
 =======
 -define:ENABLE_LEGACY_INPUT_MANAGER
 >>>>>>> origin/Malthe

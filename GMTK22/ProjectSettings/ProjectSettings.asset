@@ -657,13 +657,19 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
 <<<<<<< HEAD
+<<<<<<< HEAD
   activeInputHandler: 2
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
   activeInputHandler: 1
 =======
   activeInputHandler: 2
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0

@@ -7,9 +7,12 @@ TagManager:
   - Pipe
   - Key
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Chopper
   - Lift
   - Power
+=======
+>>>>>>> main
 =======
 >>>>>>> main
   layers:

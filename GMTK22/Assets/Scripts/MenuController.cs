@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
 =======
 <<<<<<< HEAD
+=======
+using UnityEngine.SceneManagement;
+>>>>>>> origin/Malthe
+>>>>>>> main
+=======
 =======
 using UnityEngine.SceneManagement;
 >>>>>>> origin/Malthe
@@ -15,8 +21,14 @@ public class MenuController : MonoBehaviour
     public GameObject settingMenu;
     public GameObject tutorial;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+    public GameObject credit;
+
+=======
+>>>>>>> main
+=======
     public GameObject credit;
 
 =======
@@ -31,6 +43,10 @@ public class MenuController : MonoBehaviour
         
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main
@@ -39,17 +55,23 @@ public class MenuController : MonoBehaviour
     void Start()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         settingMenu.SetActive(false);
         PlayerPrefs.SetInt("TwoPlayer",0);
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
         
 =======
         settingMenu.SetActive(false);
         PlayerPrefs.SetInt("TwoPlayer",0);
 
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
     }
 
@@ -57,13 +79,19 @@ public class MenuController : MonoBehaviour
     void Update()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
 
 =======
         
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
     }
     
@@ -81,8 +109,14 @@ public class MenuController : MonoBehaviour
     public void creditMenu()
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+        credit.SetActive(true);
+    }   
+=======
+>>>>>>> main
+=======
         credit.SetActive(true);
     }   
 =======
@@ -109,7 +143,11 @@ public class MenuController : MonoBehaviour
          if (playAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !playAnim.IsInTransition(0))
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
            SceneManager.LoadScene("Level1",LoadSceneMode.Single);
+=======
+           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1,LoadSceneMode.Single);
+>>>>>>> main
 =======
            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1,LoadSceneMode.Single);
 >>>>>>> main
@@ -118,6 +156,10 @@ public class MenuController : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main

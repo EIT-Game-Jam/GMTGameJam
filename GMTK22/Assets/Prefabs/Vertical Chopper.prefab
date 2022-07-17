@@ -249,8 +249,11 @@ GameObject:
   - component: {fileID: 1893649009789779281}
   - component: {fileID: 4353710439074775356}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 2059480508027617272}
   - component: {fileID: 1382481727476862703}
+=======
+>>>>>>> main
 =======
 >>>>>>> main
   m_Layer: 0
@@ -270,7 +273,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 119.6, y: 181, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalScale: {x: 1.8403687, y: 1.8403687, z: 1.8403687}
+=======
+  m_LocalScale: {x: 6.6869, y: 6.6869, z: 6.6869}
+>>>>>>> main
 =======
   m_LocalScale: {x: 6.6869, y: 6.6869, z: 6.6869}
 >>>>>>> main
@@ -364,6 +371,7 @@ MonoBehaviour:
   readyToBeUsed: 0
   once: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &2059480508027617272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,5 +408,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+>>>>>>> main
 =======
 >>>>>>> main

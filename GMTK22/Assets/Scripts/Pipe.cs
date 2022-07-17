@@ -13,6 +13,7 @@ public class Pipe : MonoBehaviour
     private GameObject player;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public bool isClosed;
 
     [SerializeField] private Sprite openSprite;
@@ -23,16 +24,22 @@ public class Pipe : MonoBehaviour
     {
 
 =======
+=======
+>>>>>>> main
     // Start is called before the first frame update
     void Start()
     {
         
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         if (isClosed == true)
@@ -79,6 +86,8 @@ public class Pipe : MonoBehaviour
 
         if (otherPipe.GetComponent<UseStuff>().once == true)
 =======
+=======
+>>>>>>> main
         if(lerping == true)
         {
             elapsedTime += Time.deltaTime;
@@ -96,6 +105,9 @@ public class Pipe : MonoBehaviour
         
 
         if(otherPipe.GetComponent<UseStuff>().once == true)
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
         {
             GetComponent<UseStuff>().once = true;
@@ -107,7 +119,11 @@ public class Pipe : MonoBehaviour
     {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (col.gameObject.GetComponent<SpriteRenderer>() != null && col.gameObject.tag == "Player" && isClosed == false)
+=======
+        if(col.gameObject.GetComponent<SpriteRenderer>() != null && col.gameObject.tag == "Player")
+>>>>>>> main
 =======
         if(col.gameObject.GetComponent<SpriteRenderer>() != null && col.gameObject.tag == "Player")
 >>>>>>> main
@@ -116,7 +132,11 @@ public class Pipe : MonoBehaviour
             player.GetComponent<SpriteRenderer>().enabled = false;
             lerping = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> main
 =======
             
 >>>>>>> main

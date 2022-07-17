@@ -17,13 +17,19 @@ public class SettingsMenu : MonoBehaviour
     {
         resolutions = Screen.resolutions;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
         
 =======
 
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
         ResolutionDropdown.ClearOptions();
 
@@ -31,6 +37,7 @@ public class SettingsMenu : MonoBehaviour
 
         int currentResolutionIndex = 0;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         for (int i = 0; i < resolutions.Length; i++)
         {
@@ -40,6 +47,8 @@ public class SettingsMenu : MonoBehaviour
             if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
         for(int i = 0; i < resolutions.Length; i++)
         {
             string option = resolutions[i].width + " x " + resolutions[i].height;
@@ -54,6 +63,9 @@ public class SettingsMenu : MonoBehaviour
 
             if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
             {
                 currentResolutionIndex = i;
@@ -66,6 +78,7 @@ public class SettingsMenu : MonoBehaviour
         ResolutionDropdown.RefreshShownValue();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         musicMixer.SetFloat("Music", PlayerPrefs.GetFloat("MusicVol"));
         sfxMixer.SetFloat("sfx", PlayerPrefs.GetFloat("SFXVol"));
 
@@ -100,6 +113,20 @@ public class SettingsMenu : MonoBehaviour
 <<<<<<< HEAD
 =======
 =======
+    }
+
+    public void setVolume (float volume)
+    {
+        musicMixer.SetFloat("Music", volume);
+        sfxMixer.SetFloat("sfx", volume);
+    }
+
+    public void SetFullscreen (bool isFullscreen)
+    {
+        Screen.fullScreen = isFullscreen;
+    }
+>>>>>>> main
+=======
         musicMixer.SetFloat("Music", PlayerPrefs.GetFloat("MusicVol"));
         sfxMixer.SetFloat("sfx", PlayerPrefs.GetFloat("SFXVol"));
 
@@ -128,6 +155,9 @@ public class SettingsMenu : MonoBehaviour
     {
         Screen.fullScreen = isFullscreen;
     }
+<<<<<<< HEAD
+>>>>>>> main
+=======
 >>>>>>> main
 
     void OnEnable()
@@ -138,6 +168,10 @@ public class SettingsMenu : MonoBehaviour
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main

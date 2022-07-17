@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:GMTK22/Assets/Chopper.cs.meta
 guid: 05e8a07ccf41309478e4333dad01203d
+========
+guid: 24cdbcebac8e0434aa2604590734f646
+>>>>>>>> main:GMTK22/Assets/HowtoPlay.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

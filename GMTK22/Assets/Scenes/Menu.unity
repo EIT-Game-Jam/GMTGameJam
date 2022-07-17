@@ -201,6 +201,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 25415385}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -221,6 +226,10 @@ MonoBehaviour:
   newSprite: {fileID: 21300000, guid: 26c21a1d9be3263439008accc1d15b77, type: 3}
   oldSprite: {fileID: 21300000, guid: cbdc1aa545c64e94b87ea7e7c0afee02, type: 3}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -346,6 +355,11 @@ RectTransform:
   - {fileID: 1090278811}
   - {fileID: 1565797605}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -355,6 +369,10 @@ RectTransform:
   - {fileID: 376322216}
   - {fileID: 956938588}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -428,6 +446,11 @@ Canvas:
   m_SortingOrder: 0
   m_TargetDisplay: 0
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -448,6 +471,10 @@ MonoBehaviour:
   newSprite: {fileID: 0}
   oldSprite: {fileID: 0}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -662,13 +689,19 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1645190474}
   m_Direction: 0
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_MinValue: -30
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
   m_MinValue: -80
 =======
   m_MinValue: -30
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_MaxValue: 0
   m_WholeNumbers: 0
@@ -677,10 +710,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
       - m_Target: {fileID: 1894082170}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: setSFXVolume
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
       - m_Target: {fileID: 138843436}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
@@ -690,6 +726,9 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: setSFXVolume
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
         m_Mode: 0
         m_Arguments:
@@ -1587,12 +1626,18 @@ RectTransform:
   - {fileID: 973848889}
   - {fileID: 398494142}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   - {fileID: 1104081658}
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
 =======
   - {fileID: 1104081658}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Father: {fileID: 138843431}
   m_RootOrder: 1
@@ -2658,6 +2703,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 361900249}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -2739,6 +2789,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 376322215}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -3665,6 +3719,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -3863,6 +3922,10 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -3951,6 +4014,11 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -4091,6 +4159,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 521507322}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -4402,6 +4474,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 558902011}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -4535,6 +4612,10 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -6864,6 +6945,9 @@ RectTransform:
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &903753381
 MonoBehaviour:
@@ -6963,7 +7047,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 903753379}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
 =======
 --- !u!1 &925126192
@@ -7101,6 +7188,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925126192}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &956938587
 GameObject:
@@ -7200,6 +7290,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 956938587}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -7216,14 +7310,20 @@ GameObject:
   - component: {fileID: 970038517}
   - component: {fileID: 970038516}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   - component: {fileID: 970038520}
   - component: {fileID: 970038521}
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
 =======
   - component: {fileID: 970038520}
   - component: {fileID: 970038521}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Layer: 0
   m_Name: Credit
@@ -7290,13 +7390,19 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_AdditionalShaderChannelsFlag: 25
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
   m_AdditionalShaderChannelsFlag: 0
 =======
   m_AdditionalShaderChannelsFlag: 25
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_SortingLayerID: 0
   m_SortingOrder: 1
@@ -7315,12 +7421,18 @@ RectTransform:
   m_Children:
   - {fileID: 1010978156}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   - {fileID: 1402857028}
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
 =======
   - {fileID: 1402857028}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Father: {fileID: 2135438772}
   m_RootOrder: 0
@@ -7331,6 +7443,11 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -7369,6 +7486,10 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -8047,9 +8168,12 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_AnchoredPosition: {x: -109.7, y: -205.66571}
   m_SizeDelta: {x: 113.267, y: 42.977}
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
   m_AnchoredPosition: {x: -61, y: -194}
   m_SizeDelta: {x: 200, y: 50}
@@ -8057,6 +8181,9 @@ RectTransform:
   m_AnchoredPosition: {x: -109.7, y: -205.66571}
   m_SizeDelta: {x: 113.267, y: 42.977}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090278812
@@ -8116,6 +8243,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -8133,6 +8265,10 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -8234,6 +8370,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1090278810}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -8434,7 +8575,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1104398999
 GameObject:
   m_ObjectHideFlags: 0
@@ -8511,6 +8655,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104398999}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1119028402
 GameObject:
@@ -8606,6 +8753,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 1119028402}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -10046,13 +10197,19 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_AnchoredPosition: {x: 112.61, y: -196.7157}
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
   m_AnchoredPosition: {x: 101, y: -189}
 =======
   m_AnchoredPosition: {x: 112.61, y: -196.7157}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_SizeDelta: {x: 142.563, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -10113,6 +10270,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -10130,6 +10292,10 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -10231,6 +10397,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1394674060}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -10393,6 +10564,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 1402857027}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -11238,8 +11413,11 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_LocalScale: {x: 0.41526678, y: 0.41526678, z: 0.41526678}
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
   m_LocalScale: {x: 0.37247, y: 0.37247, z: 0.37247}
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -11265,6 +11443,9 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -197.83571}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -11325,6 +11506,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -11342,6 +11528,10 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -12779,6 +12969,11 @@ RectTransform:
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -12977,6 +13172,10 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -13071,12 +13270,18 @@ GameObject:
   - component: {fileID: 1894082169}
   - component: {fileID: 1894082168}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   - component: {fileID: 1894082170}
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
 =======
   - component: {fileID: 1894082170}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Layer: 0
   m_Name: MenuController
@@ -13100,15 +13305,21 @@ MonoBehaviour:
   settingMenu: {fileID: 138843430}
   tutorial: {fileID: 816153060}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   creditsMenu: {fileID: 970038515}
   playAnim: {fileID: 956938589}
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
   credit: {fileID: 970038515}
 =======
   creditsMenu: {fileID: 970038515}
   playAnim: {fileID: 956938589}
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!4 &1894082169
 Transform:
@@ -13126,6 +13337,11 @@ Transform:
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -13146,6 +13362,10 @@ MonoBehaviour:
   sfxMixer: {fileID: 24100000, guid: 819625a5f2f2ab043ba804cfbb43ada0, type: 2}
   ResolutionDropdown: {fileID: 398494141}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -13230,7 +13450,10 @@ RectTransform:
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
 =======
 --- !u!1 &1907262338
@@ -13368,6 +13591,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907262338}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1907959823
 GameObject:
@@ -13498,6 +13724,10 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -13871,6 +14101,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1957289004}
   m_CullTransparentMesh: 1
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 <<<<<<< HEAD
 =======
@@ -13891,6 +14126,10 @@ MonoBehaviour:
   newSprite: {fileID: 21300000, guid: 26c21a1d9be3263439008accc1d15b77, type: 3}
   oldSprite: {fileID: 21300000, guid: cbdc1aa545c64e94b87ea7e7c0afee02, type: 3}
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
@@ -14244,13 +14483,19 @@ MonoBehaviour:
   m_HandleRect: {fileID: 361900250}
   m_Direction: 0
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_MinValue: -30
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
   m_MinValue: -80
 =======
   m_MinValue: -30
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_MaxValue: 0
   m_WholeNumbers: 0
@@ -14259,10 +14504,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
 <<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
       - m_Target: {fileID: 1894082170}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: setMusicVolume
 =======
+=======
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 <<<<<<< HEAD
       - m_Target: {fileID: 138843436}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
@@ -14272,6 +14520,9 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: setMusicVolume
 >>>>>>> origin/Malthe
+<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
+>>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
+=======
 >>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
         m_Mode: 0
         m_Arguments:
