@@ -11,20 +11,34 @@ public class UseStuff : MonoBehaviour
 
     Collider2D colli;
 
+    public bool once = false;
+
     // Start is called before the first frame update
     void Start()
     {
         readyToBeUsed = false;
+        once = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(this.gameObject.tag == "Pipe" && readyToBeUsed == true && colli != null)
+        if (colli != null)
         {
-            GetComponent<Pipe>().Use(colli);
+            if (this.gameObject.tag == "Pipe" && readyToBeUsed == true && colli.gameObject.name == "Tomato(Clone)" && colli.gameObject.GetComponent<PlayerMovement>().used == true)
+            {
+                readyToBeUsed = false;
+                GetComponent<Pipe>().Use(colli);
+                once = true;
+            }
+
+
         }
-        
+        else
+        {
+            once = false;
+        }
+
     }
 
 
@@ -38,8 +52,16 @@ public class UseStuff : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D col)
     {
+        if (colli.gameObject.tag == "Player")
+        {
+            if (colli.gameObject.GetComponent<PlayerMovement>().used == false)
+            {
+                once = false;
+            }
+        }
         UI.SetActive(false);
         readyToBeUsed = false;
         colli = null;
+
     }
 }

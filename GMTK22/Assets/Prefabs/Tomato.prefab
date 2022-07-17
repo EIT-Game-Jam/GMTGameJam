@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8945177751798519211}
   m_Layer: 0
   m_Name: Tomato
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,6 +224,7 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 7758870101542095849}
   animator: {fileID: 7758870101542095851}
+  used: 0
   ifTwoPlayer: 1
   mainCamera: {fileID: 0}
   lerpSpeed: 5

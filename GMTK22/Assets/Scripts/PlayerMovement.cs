@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
-        Debug.Log(this.gameObject.name + ": " + movement);
+        
 
     } 
 
@@ -87,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
         if(ifTwoPlayer == false){
         mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
         mainCamera.transform.parent = this.transform;
+        mainCamera.gameObject.SetActive(false);
         }
         
     }
@@ -109,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
         {
             otherPlayer.GetComponent<PlayerMovement>().enabled = true;
             followCamera = Instantiate(followCamera,this.transform);
-            if(this.gameObject.name != "Tomato(Clone)"){
+            if(this.gameObject.name == "Tomato(Clone)"){
                 followCamera.GetComponent<Camera>().rect = new Rect(0.5f,0,0.5f,1);
             }
         }

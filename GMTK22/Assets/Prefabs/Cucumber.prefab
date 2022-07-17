@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1934043041439083550}
   m_Layer: 0
   m_Name: Cucumber
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,6 +224,7 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 5740594110114300157}
   animator: {fileID: 5740594110114300159}
+  used: 0
   ifTwoPlayer: 1
   mainCamera: {fileID: 0}
   lerpSpeed: 5
