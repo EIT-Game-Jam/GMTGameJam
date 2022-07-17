@@ -248,6 +248,7 @@ GameObject:
   - component: {fileID: 7213438938487665115}
   - component: {fileID: 6843516122544586240}
   - component: {fileID: 3201145738436172321}
+  - component: {fileID: -752666799778794384}
   m_Layer: 0
   m_Name: HorizontalChopper
   m_TagString: Untagged
@@ -337,6 +338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UI: {fileID: 4894218465533611904}
   readyToBeUsed: 0
+  once: 0
 --- !u!58 &3201145738436172321
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -347,9 +349,24 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.24, y: -0.33}
   serializedVersion: 2
   m_Radius: 1.56
+--- !u!114 &-752666799778794384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213438938487665114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5694b290681b7ed49bd7f9d014e34434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UI: {fileID: 0}
+  readyToBeUsed: 0
+  once: 0

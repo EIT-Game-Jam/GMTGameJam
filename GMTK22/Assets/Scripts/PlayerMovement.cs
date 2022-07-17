@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     public bool used = false;
     private bool shift = false;
-    public bool ifTwoPlayer = true;
 
     private bool justShifted = false;
 
@@ -31,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
     public CapsuleCollider2D cucumberCol;
 
     public GameObject followCamera;
+
+    public int diceNum = 0;
 
 
 
@@ -48,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnShift(InputAction.CallbackContext context)
     {
-        if(ifTwoPlayer == false)
+        if(PlayerPrefs.GetInt("TwoPlayer") == 0)
         {
         shift = context.action.triggered;
         if(shift == true && justShifted == false){
@@ -84,10 +85,9 @@ public class PlayerMovement : MonoBehaviour
         mySpriteRenderer = GetComponent<SpriteRenderer>();
 
         mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
-        if(ifTwoPlayer == false){
+        if(PlayerPrefs.GetInt("TwoPlayer") == 0){
         mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
         mainCamera.transform.parent = this.transform;
-        mainCamera.gameObject.SetActive(false);
         }
         
     }
@@ -106,11 +106,11 @@ public class PlayerMovement : MonoBehaviour
             cucumberCol = GetComponent<CapsuleCollider2D>();
         }
 
-        if(ifTwoPlayer == true)
+        if(PlayerPrefs.GetInt("TwoPlayer") == 1)
         {
             otherPlayer.GetComponent<PlayerMovement>().enabled = true;
             followCamera = Instantiate(followCamera,this.transform);
-            if(this.gameObject.name == "Tomato(Clone)"){
+            if(this.gameObject.name != "Tomato(Clone)"){
                 followCamera.GetComponent<Camera>().rect = new Rect(0.5f,0,0.5f,1);
             }
         }
@@ -124,7 +124,7 @@ public class PlayerMovement : MonoBehaviour
        animator.SetFloat("Vertical", movement.y);
        animator.SetFloat("Speed", movement.magnitude);
        
-       if(transform.Find("Main Camera") == null && ifTwoPlayer == false){
+       if(transform.Find("Main Camera") == null && PlayerPrefs.GetInt("TwoPlayer") == 0){
             mainCamera.transform.parent = null;
             elapsedTime += Time.deltaTime;
             var percentageComplete = elapsedTime/lerpSpeed;

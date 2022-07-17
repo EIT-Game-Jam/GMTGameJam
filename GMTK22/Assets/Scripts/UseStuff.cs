@@ -31,12 +31,21 @@ public class UseStuff : MonoBehaviour
                 GetComponent<Pipe>().Use(colli);
                 once = true;
             }
+            else if (this.gameObject.tag == "Key" && readyToBeUsed == true && colli.gameObject.GetComponent<PlayerMovement>().used == true)
+            {
+                once = true;
+                GetComponent<Key>().Use(colli);
+                readyToBeUsed = false;
+            }
+
 
 
         }
+
         else
         {
             once = false;
+
         }
 
     }
@@ -45,13 +54,19 @@ public class UseStuff : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        UI.SetActive(true);
+        if (this.gameObject.tag != "Key")
+        {
+            UI.SetActive(true);
+        }
         readyToBeUsed = true;
         colli = col;
+
+
     }
 
     void OnTriggerExit2D(Collider2D col)
     {
+
         if (colli.gameObject.tag == "Player")
         {
             if (colli.gameObject.GetComponent<PlayerMovement>().used == false)
@@ -59,7 +74,10 @@ public class UseStuff : MonoBehaviour
                 once = false;
             }
         }
-        UI.SetActive(false);
+        if (this.gameObject.tag != "Key")
+        {
+            UI.SetActive(false);
+        }
         readyToBeUsed = false;
         colli = null;
 

@@ -175,7 +175,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 997f89336a6b77145b3c4b2504dcfab8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -225,11 +225,11 @@ MonoBehaviour:
   rb: {fileID: 5740594110114300157}
   animator: {fileID: 5740594110114300159}
   used: 0
-  ifTwoPlayer: 1
   mainCamera: {fileID: 0}
   lerpSpeed: 5
   cucumberCol: {fileID: 0}
   followCamera: {fileID: 4407722472022839210, guid: 679eb5a65520c604a910fd17c8eb0962, type: 3}
+  diceNum: 0
 --- !u!95 &5740594110114300159
 Animator:
   serializedVersion: 4

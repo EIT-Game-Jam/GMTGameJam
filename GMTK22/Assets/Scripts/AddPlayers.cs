@@ -14,7 +14,9 @@ public class AddPlayers : MonoBehaviour
     public PlayerInput cucumberInput;
     public PlayerInput tomatoInput;
 
-    public bool ifTwoPlayer = true;
+    public GameObject divider;
+
+
 
     void awake()
     {
@@ -27,14 +29,15 @@ public class AddPlayers : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(ifTwoPlayer == false){
+        if(PlayerPrefs.GetInt("TwoPlayer") == 0){
             cucumberInput = PlayerInput.Instantiate(cucumber, controlScheme: "Keyboard", pairWithDevice: Keyboard.current);
             tomatoInput = PlayerInput.Instantiate(tomato, controlScheme: "Keyboard2", pairWithDevice: Keyboard.current);
             cucumberInput.transform.position = cucumberSpawn.position;
             tomatoInput.transform.position = tomatoSpawn.position;
+            divider.SetActive(false);
     }
 
-        if(ifTwoPlayer == true){
+        if(PlayerPrefs.GetInt("TwoPlayer") == 1){
             cucumberInput = PlayerInput.Instantiate(cucumber, controlScheme: "Keyboard", pairWithDevice: Keyboard.current);
             tomatoInput = PlayerInput.Instantiate(tomato, controlScheme: "Arrow", pairWithDevice: Keyboard.current);
             cucumberInput.transform.position = cucumberSpawn.position;
