@@ -249,6 +249,8 @@ GameObject:
   - component: {fileID: 6843516122544586240}
   - component: {fileID: 3201145738436172321}
   - component: {fileID: -752666799778794384}
+  - component: {fileID: -122783687979440108}
+  - component: {fileID: 309183319246315304}
   m_Layer: 0
   m_Name: HorizontalChopper
   m_TagString: Untagged
@@ -367,6 +369,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5694b290681b7ed49bd7f9d014e34434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 0}
+  UI: {fileID: 4894218465533611904}
   readyToBeUsed: 0
   once: 0
+--- !u!114 &-122783687979440108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213438938487665114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e8a07ccf41309478e4333dad01203d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOn: 0
+  chopNum: 1
+  onSprite: {fileID: 0}
+  offSprite: {fileID: 21300000, guid: c946a53586c10aa4a987ee1c706a471e, type: 3}
+--- !u!95 &309183319246315304
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213438938487665114}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9536d2d76dd9a94459766e52a5c98e2b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

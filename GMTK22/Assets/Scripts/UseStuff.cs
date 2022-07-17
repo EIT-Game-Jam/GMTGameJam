@@ -54,12 +54,16 @@ public class UseStuff : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (this.gameObject.tag != "Key")
-        {
-            UI.SetActive(true);
-        }
+
+        UI.SetActive(true);
+
         readyToBeUsed = true;
         colli = col;
+
+        if(this.gameObject.tag == "Chopper")
+        {
+            GetComponent<Chopper>().Use(col);
+        }
 
 
     }
@@ -74,10 +78,8 @@ public class UseStuff : MonoBehaviour
                 once = false;
             }
         }
-        if (this.gameObject.tag != "Key")
-        {
-            UI.SetActive(false);
-        }
+        UI.SetActive(false);
+
         readyToBeUsed = false;
         colli = null;
 

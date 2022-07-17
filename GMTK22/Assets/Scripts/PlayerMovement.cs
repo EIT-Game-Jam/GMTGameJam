@@ -81,6 +81,7 @@ public class PlayerMovement : MonoBehaviour
     {
         used = false;
         shift = false;
+        diceNum = 0;
 
         mySpriteRenderer = GetComponent<SpriteRenderer>();
 

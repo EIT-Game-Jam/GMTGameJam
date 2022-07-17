@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5694b290681b7ed49bd7f9d014e34434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 1748677527625588703}
+  UI: {fileID: 6447165105615359980}
   readyToBeUsed: 0
   once: 0
 --- !u!114 &8440660502831499791
@@ -170,7 +170,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4189781564403132472
 RectTransform:
   m_ObjectHideFlags: 0
@@ -189,8 +189,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.245, y: 1.45}
-  m_SizeDelta: {x: 4.5252, y: 1.4734}
+  m_AnchoredPosition: {x: 0.21, y: 1.45}
+  m_SizeDelta: {x: 5.315, y: 1.4734}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &8514142267351137870
 Canvas:
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -3.1177597, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
