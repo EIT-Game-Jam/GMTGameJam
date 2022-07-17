@@ -412,6 +412,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &651999039
 GameObject:
   m_ObjectHideFlags: 0
@@ -42886,6 +42887,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> origin/Malthe
 --- !u!1 &1801786723
 GameObject:
   m_ObjectHideFlags: 0
@@ -42911,7 +42914,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801786723}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -19.2, y: 37.4, z: 0.004500015}
+=======
+  m_LocalPosition: {x: 2.3673086, y: 0.026492625, z: 0.004500015}
+>>>>>>> origin/Malthe
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42927,6 +42934,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1801786723}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: cffc140c359838344a7250395d169451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -42937,3 +42945,15 @@ MonoBehaviour:
   cucumberInput: {fileID: 0}
   tomatoInput: {fileID: 0}
   ifTwoPlayer: 0
+=======
+  m_Script: {fileID: 11500000, guid: 406cf0b4e6106094ca213145005390c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cucumber: {fileID: 0}
+  cucumberSpawn: {fileID: 0}
+  tomato: {fileID: 0}
+  tomatoSpawn: {fileID: 0}
+  cucumberInput: {fileID: 0}
+  tomatoInput: {fileID: 0}
+  ifTwoPlayer: 1
+>>>>>>> origin/Malthe

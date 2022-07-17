@@ -50,9 +50,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+<<<<<<< HEAD
     - _Exposure: 0
     - _Rotation: 0
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _Tint: {r: 0.07427046, g: 0.08878552, b: 0.42249042, a: 0}
+=======
+    - _Exposure: 0.5403211
+    - _Rotation: 0
+    m_Colors:
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Tint: {r: 0.075569704, g: 0.08888164, b: 0.4181508, a: 0}
+>>>>>>> origin/Malthe
   m_BuildTextureStacks: []

@@ -115,6 +115,10 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+<<<<<<< HEAD
+=======
+-define:ENABLE_LEGACY_INPUT_MANAGER
+>>>>>>> origin/Malthe
 -define:UNITY_OPERATE_SERVICE_ENABLED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER

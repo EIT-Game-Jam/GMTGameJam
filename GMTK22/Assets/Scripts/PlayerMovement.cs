@@ -16,9 +16,12 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     public bool used = false;
     private bool shift = false;
+<<<<<<< HEAD
     public bool ifTwoPlayer = true;
 
     public bool isPaused = false;
+=======
+>>>>>>> origin/Malthe
 
     private bool justShifted = false;
 
@@ -34,6 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject followCamera;
 
+<<<<<<< HEAD
     private bool once;
 
 
@@ -42,13 +46,24 @@ public class PlayerMovement : MonoBehaviour
         isPaused = context.action.triggered;
     }
 
+=======
+    public int diceNum = 0;
+
+
+>>>>>>> origin/Malthe
 
     public void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
+<<<<<<< HEAD
         Debug.Log(this.gameObject.name + ": " + movement);
 
     }
+=======
+        
+
+    } 
+>>>>>>> origin/Malthe
 
     public void OnUse(InputAction.CallbackContext context)
     {
@@ -57,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnShift(InputAction.CallbackContext context)
     {
+<<<<<<< HEAD
         if (PlayerPrefs.GetInt("TwoPlayer") == 0)
         {
             shift = context.action.triggered;
@@ -70,6 +86,20 @@ public class PlayerMovement : MonoBehaviour
 
 
             }
+=======
+        if(PlayerPrefs.GetInt("TwoPlayer") == 0)
+        {
+        shift = context.action.triggered;
+        if(shift == true && justShifted == false){
+
+            Debug.Log(this.gameObject.name + ": " + shift);
+            otherPlayer.GetComponent<PlayerMovement>().enabled = true;
+            
+            GetComponent<PlayerMovement>().enabled = false;
+            
+            
+        }
+>>>>>>> origin/Malthe
         }
     }
 
@@ -83,7 +113,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void TwoPlayer(InputAction.CallbackContext context)
     {
+<<<<<<< HEAD
 
+=======
+      
+>>>>>>> origin/Malthe
     }
 
     void Awake()
@@ -94,19 +128,32 @@ public class PlayerMovement : MonoBehaviour
         mySpriteRenderer = GetComponent<SpriteRenderer>();
 
         mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
+<<<<<<< HEAD
         if (PlayerPrefs.GetInt("TwoPlayer") == 0)
         {
             mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
             mainCamera.transform.parent = this.transform;
         }
         once = false;
+=======
+        if(PlayerPrefs.GetInt("TwoPlayer") == 0){
+        mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
+        mainCamera.transform.parent = this.transform;
+        }
+        
+>>>>>>> origin/Malthe
     }
 
     void Start()
     {
 
+<<<<<<< HEAD
 
         if (this.gameObject.name == "Tomato(Clone)")
+=======
+        
+        if(this.gameObject.name == "Tomato(Clone)")
+>>>>>>> origin/Malthe
         {
             otherPlayer = GameObject.Find("Cucumber(Clone)");
         }
@@ -116,6 +163,7 @@ public class PlayerMovement : MonoBehaviour
             cucumberCol = GetComponent<CapsuleCollider2D>();
         }
 
+<<<<<<< HEAD
         if (PlayerPrefs.GetInt("TwoPlayer") == 1)
         {
             otherPlayer.GetComponent<PlayerMovement>().enabled = true;
@@ -123,6 +171,14 @@ public class PlayerMovement : MonoBehaviour
             if (this.gameObject.name != "Tomato(Clone)")
             {
                 followCamera.GetComponent<Camera>().rect = new Rect(0.5f, 0, 0.5f, 1);
+=======
+        if(PlayerPrefs.GetInt("TwoPlayer") == 1)
+        {
+            otherPlayer.GetComponent<PlayerMovement>().enabled = true;
+            followCamera = Instantiate(followCamera,this.transform);
+            if(this.gameObject.name != "Tomato(Clone)"){
+                followCamera.GetComponent<Camera>().rect = new Rect(0.5f,0,0.5f,1);
+>>>>>>> origin/Malthe
             }
         }
     }
@@ -131,6 +187,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         //input
+<<<<<<< HEAD
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.magnitude);
@@ -188,11 +245,59 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
+=======
+       animator.SetFloat("Horizontal", movement.x);
+       animator.SetFloat("Vertical", movement.y);
+       animator.SetFloat("Speed", movement.magnitude);
+       
+       if(transform.Find("Main Camera") == null && PlayerPrefs.GetInt("TwoPlayer") == 0){
+            mainCamera.transform.parent = null;
+            elapsedTime += Time.deltaTime;
+            var percentageComplete = elapsedTime/lerpSpeed;
+
+            mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, new Vector3(transform.position.x, transform.position.y, -10), percentageComplete);
+            if(mainCamera.transform.position == new Vector3(transform.position.x, transform.position.y, -10)){
+                mainCamera.transform.parent = this.transform;
+                elapsedTime = 0;
+            }
+       }
+
+        if(shift == false)
+        {
+            justShifted = false;
+        }
+        if(this.gameObject.name == "Tomato(Clone)"){
+            if(movement.x < 0 && mySpriteRenderer.flipX == false){
+                if(mySpriteRenderer!= null){
+                    mySpriteRenderer.flipX = true;
+                }
+            }
+            if(movement.x > 0){
+                mySpriteRenderer.flipX = false;
+            }
+            if(movement.y > 0){
+                if(movement.x > 0){
+                    mySpriteRenderer.flipX = true;
+                }
+                else if(movement.x < 0){
+                    mySpriteRenderer.flipX = false;
+                }
+            }        
+        }
+        else{
+            if(movement.x != 0 && movement.y == 0){
+                cucumberCol.direction = CapsuleDirection2D.Vertical;
+                cucumberCol.size = new Vector2(1.54f,6f);
+                cucumberCol.offset = new Vector2(-0.04f, -1.5f);
+            }
+            else{
+>>>>>>> origin/Malthe
                 cucumberCol.direction = CapsuleDirection2D.Horizontal;
                 cucumberCol.size = new Vector2(8.53f, 1.54f);
                 cucumberCol.offset = new Vector2(-0.16f, -0.04f);
             }
         }
+<<<<<<< HEAD
 
         if (isPaused == true && once == false)
         {
@@ -205,6 +310,8 @@ public class PlayerMovement : MonoBehaviour
             once = false;
         }
 
+=======
+>>>>>>> origin/Malthe
     }
 
 

@@ -656,7 +656,11 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
+<<<<<<< HEAD
   activeInputHandler: 1
+=======
+  activeInputHandler: 2
+>>>>>>> origin/Malthe
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
