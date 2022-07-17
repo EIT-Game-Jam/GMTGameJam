@@ -366,3 +366,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a863a069c3d808645ab4b9d0dd2e94cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherPipe: {fileID: 0}
+  lerpSpeed: 0
