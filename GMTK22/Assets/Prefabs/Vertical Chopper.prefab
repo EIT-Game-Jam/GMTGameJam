@@ -248,6 +248,8 @@ GameObject:
   - component: {fileID: 5713275656809052741}
   - component: {fileID: 1893649009789779281}
   - component: {fileID: 4353710439074775356}
+  - component: {fileID: 2059480508027617272}
+  - component: {fileID: 1382481727476862703}
   m_Layer: 0
   m_Name: Vertical Chopper
   m_TagString: Untagged
@@ -264,7 +266,7 @@ Transform:
   m_GameObject: {fileID: 5713275656809052742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 119.6, y: 181, z: 0}
-  m_LocalScale: {x: 6.6869, y: 6.6869, z: 6.6869}
+  m_LocalScale: {x: 1.8403687, y: 1.8403687, z: 1.8403687}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6796554383719984676}
@@ -354,3 +356,39 @@ MonoBehaviour:
   UI: {fileID: 356251867214393414}
   readyToBeUsed: 0
   once: 0
+--- !u!114 &2059480508027617272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5713275656809052742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e8a07ccf41309478e4333dad01203d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isOn: 0
+  chopNum: 0
+  onSprite: {fileID: 21300000, guid: 077fc6ded647ebe4c8d3a3cb6fc8f3ed, type: 3}
+  offSprite: {fileID: 21300000, guid: c45258bda9340a14bb70b50935ccc18f, type: 3}
+--- !u!95 &1382481727476862703
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5713275656809052742}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d44ca075acea6bc499ea64a4e1358035, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

@@ -38,6 +38,31 @@ public class UseStuff : MonoBehaviour
                 readyToBeUsed = false;
             }
 
+            else if (this.gameObject.tag == "Chopper" && readyToBeUsed == true && colli.gameObject.GetComponent<PlayerMovement>().used == true)
+            {
+                once = true;
+                GetComponent<Chopper>().isOn = !GetComponent<Chopper>().isOn;
+                
+            }
+
+            else if (this.gameObject.tag == "Lift" && readyToBeUsed == true && colli.gameObject.GetComponent<PlayerMovement>().used == true)
+            {
+                once = true;
+                GetComponent<lift>().isOn = !GetComponent<lift>().isOn;
+                GetComponent<lift>().Use(colli);
+                readyToBeUsed = false;
+                
+            }
+
+            else if (this.gameObject.tag == "Power" && readyToBeUsed == true && colli.gameObject.GetComponent<PlayerMovement>().used == true)
+            {
+                once = true;
+               
+                GetComponent<power>().Use(colli);
+                readyToBeUsed = false;
+                
+            }
+
 
 
         }
@@ -67,6 +92,24 @@ public class UseStuff : MonoBehaviour
 
 
     }
+
+
+        void OnTriggerStay2D(Collider2D col)
+    {
+
+        UI.SetActive(true);
+
+        readyToBeUsed = true;
+        colli = col;
+
+        if(this.gameObject.tag == "Chopper")
+        {
+            GetComponent<Chopper>().Use(col);
+        }
+
+
+    }
+
 
     void OnTriggerExit2D(Collider2D col)
     {

@@ -354,6 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UI: {fileID: 7648171046194341439}
   readyToBeUsed: 0
+  once: 0
 --- !u!114 &3023158501253036103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,3 +369,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   otherPipe: {fileID: 0}
   lerpSpeed: 0
+  isClosed: 0
+  openSprite: {fileID: 21300000, guid: 8ac1241667615b74395fba952a293005, type: 3}
+  closedSprite: {fileID: 21300000, guid: 376a6ca8a97dd0f4a91fcd42ca6cc4d9, type: 3}

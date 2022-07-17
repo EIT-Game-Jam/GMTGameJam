@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Pipe
   - Key
+  - Chopper
+  - Lift
+  - Power
   layers:
   - Default
   - TransparentFX
@@ -42,6 +45,12 @@ TagManager:
   m_SortingLayers:
   - name: Floor
     uniqueID: 4045914327
+    locked: 0
+  - name: Between
+    uniqueID: 1972616073
+    locked: 0
+  - name: Upstairs
+    uniqueID: 2984183395
     locked: 0
   - name: Default
     uniqueID: 0

@@ -65,7 +65,7 @@ public class MenuController : MonoBehaviour
     {
          if (playAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !playAnim.IsInTransition(0))
         {
-           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1,LoadSceneMode.Single);
+           SceneManager.LoadScene("Level1",LoadSceneMode.Single);
         }
         
     }

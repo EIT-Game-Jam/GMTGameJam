@@ -26,6 +26,13 @@ public class Chopper : MonoBehaviour
     void Update()
     {
 
+        if(isOn == true)
+        {
+            TurnOn();
+        }
+        else
+        {TurnOff();
+    }
 
         
     }
@@ -35,19 +42,23 @@ public class Chopper : MonoBehaviour
     {
         isOn = true;
         GetComponent<SpriteRenderer>().sprite = onSprite;
-        gameObject.GetComponent<Animator>().SetBool("isOn", true);
+        if(gameObject.name != "choppermachine")
+        gameObject.GetComponent<Animator>().SetBool("IsOn", true);
+        
     }
 
       public void TurnOff()
     {
-        isOn = true;
+        isOn = false;
         GetComponent<SpriteRenderer>().sprite = offSprite;
-        gameObject.GetComponent<Animator>().SetBool("isOn", false);
+        if(gameObject.name != "choppermachine")
+        gameObject.GetComponent<Animator>().SetBool("IsOn", false);
     }
 
 
     public void Use(Collider2D col)
     {
+
         if(col.gameObject.tag == "Player" && isOn == true)
         {
             if(col.gameObject.GetComponent<PlayerMovement>().diceNum == chopNum)
