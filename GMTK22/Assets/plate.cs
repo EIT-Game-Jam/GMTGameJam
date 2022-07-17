@@ -35,7 +35,7 @@ public class plate : MonoBehaviour
     {
         if(col.gameObject.tag == "Player")
         {
-            activator.GetComponent<Pipe>().isClosed = true;
+            
             GetComponent<SpriteRenderer>().sprite = notPressedSprite;
         }
     }

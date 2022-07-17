@@ -24,7 +24,7 @@ public class hole : MonoBehaviour
         {
             if(col.gameObject.GetComponent<PlayerMovement>().diceNum == 3)
             {
-                wall.GetComponent<Collider2D>().enabled = false;
+                wall.GetComponent<BoxCollider2D>().enabled = false;
             }
 
         }
