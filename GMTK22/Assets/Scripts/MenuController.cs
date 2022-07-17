@@ -6,7 +6,7 @@ public class MenuController : MonoBehaviour
 {
     public GameObject settingMenu;
     public GameObject tutorial;
-    public GameObject credit;
+    public GameObject creditsMenu;
 
 
     // Start is called before the first frame update
@@ -34,6 +34,6 @@ public class MenuController : MonoBehaviour
 
     public void creditMenu()
     {
-        credit.SetActive(true);
+        creditsMenu.SetActive(true);
     }   
 }
