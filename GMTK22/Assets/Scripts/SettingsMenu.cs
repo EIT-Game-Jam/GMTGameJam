@@ -16,19 +16,19 @@ public class SettingsMenu : MonoBehaviour
     void Start()
     {
         resolutions = Screen.resolutions;
-        
+
         ResolutionDropdown.ClearOptions();
 
         List<string> options = new List<string>();
 
         int currentResolutionIndex = 0;
 
-        for(int i = 0; i < resolutions.Length; i++)
+        for (int i = 0; i < resolutions.Length; i++)
         {
             string option = resolutions[i].width + " x " + resolutions[i].height;
             options.Add(option);
-            
-            if(resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
+
+            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
             {
                 currentResolutionIndex = i;
             }
@@ -39,19 +39,40 @@ public class SettingsMenu : MonoBehaviour
         ResolutionDropdown.value = currentResolutionIndex;
         ResolutionDropdown.RefreshShownValue();
 
+        musicMixer.SetFloat("Music", PlayerPrefs.GetFloat("MusicVol"));
+        sfxMixer.SetFloat("sfx", PlayerPrefs.GetFloat("SFXVol"));
+
     }
 
-    public void setVolumeMusic (float volume)
+    void Update()
     {
+
+    }
+
+    public void setMusicVolume(float volume)
+    {
+        PlayerPrefs.SetFloat("MusicVol", volume);
         musicMixer.SetFloat("Music", volume);
     }
 
-    public void setVolumeSfx(float volume)
+
+    public void setSFXVolume(float volume)
     {
-        sfxMixer.SetFloat("SFX", volume);
+        PlayerPrefs.SetFloat("SFXVol", volume);
+        sfxMixer.SetFloat("sfx", volume);
     }
-    public void SetFullscreen (bool isFullscreen)
+
+
+    public void SetFullscreen(bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
     }
+
+    void OnEnable()
+    {
+        musicMixer.SetFloat("Music", PlayerPrefs.GetFloat("MusicVol"));
+        sfxMixer.SetFloat("sfx", PlayerPrefs.GetFloat("SFXVol"));
+    }
+
+
 }
