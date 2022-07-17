@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     private Vector2 movement;
-    private bool used = false;
+    public bool used = false;
     private bool shift = false;
     public bool ifTwoPlayer = true;
 
