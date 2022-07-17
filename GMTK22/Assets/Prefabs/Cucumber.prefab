@@ -130,6 +130,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 98f35001-b780-4887-9f7a-5dbb81122149
     m_ActionName: Player2/TwoPlayer[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5740594110114300098}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Paused
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a3d2093a-679a-4727-99f9-05988cafa826
+    m_ActionName: Player/Pause[/Keyboard/p]
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Keyboard2
   m_DefaultActionMap: Player
@@ -224,7 +240,9 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 5740594110114300157}
   animator: {fileID: 5740594110114300159}
+  used: 0
   ifTwoPlayer: 1
+  isPaused: 0
   mainCamera: {fileID: 0}
   lerpSpeed: 5
   cucumberCol: {fileID: 0}

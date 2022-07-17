@@ -5,36 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-      ticks: 637936010480290029
-    m_Hash: 90023563
-=======
-      ticks: 637935178437118343
-    m_Hash: 2526986484
->>>>>>> Emil
-=======
-      ticks: 637935215031177082
+      ticks: 637936011244678972
     m_Hash: 884535303
->>>>>>> Gustav
   m_LockFileStatus:
     m_FilePath: C:/gusta/Documents/GitHub/GMTGameJam/GMTK22/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-      ticks: 637936010480300027
-    m_Hash: 363444353
-=======
-      ticks: 637935178437160299
-    m_Hash: 1484992857
->>>>>>> Emil
-=======
-      ticks: 637935215031187086
+      ticks: 637936011244713977
     m_Hash: 1583597519
->>>>>>> Gustav
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
