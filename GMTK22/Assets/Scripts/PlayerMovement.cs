@@ -30,6 +30,8 @@ public class PlayerMovement : MonoBehaviour
 
     public CapsuleCollider2D cucumberCol;
 
+    public GameObject followCamera;
+
 
 
     public void OnMove(InputAction.CallbackContext context)
@@ -82,9 +84,10 @@ public class PlayerMovement : MonoBehaviour
         mySpriteRenderer = GetComponent<SpriteRenderer>();
 
         mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
+        if(ifTwoPlayer == false){
         mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
         mainCamera.transform.parent = this.transform;
-        
+        }
         
     }
 
@@ -105,6 +108,10 @@ public class PlayerMovement : MonoBehaviour
         if(ifTwoPlayer == true)
         {
             otherPlayer.GetComponent<PlayerMovement>().enabled = true;
+            followCamera = Instantiate(followCamera,this.transform);
+            if(this.gameObject.name != "Tomato(Clone)"){
+                followCamera.GetComponent<Camera>().rect = new Rect(0.5f,0,0.5f,1);
+            }
         }
     }
 
@@ -153,9 +160,13 @@ public class PlayerMovement : MonoBehaviour
         else{
             if(movement.x != 0 && movement.y == 0){
                 cucumberCol.direction = CapsuleDirection2D.Vertical;
+                cucumberCol.size = new Vector2(1.54f,6f);
+                cucumberCol.offset = new Vector2(-0.04f, -1.5f);
             }
             else{
                 cucumberCol.direction = CapsuleDirection2D.Horizontal;
+                cucumberCol.size = new Vector2(8.53f, 1.54f);
+                cucumberCol.offset = new Vector2(-0.16f, -0.04f);
             }
         }
     }

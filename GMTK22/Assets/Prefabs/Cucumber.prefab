@@ -203,7 +203,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1ba4ac7ae68394b419a9cea21a82f182, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -227,6 +227,8 @@ MonoBehaviour:
   ifTwoPlayer: 1
   mainCamera: {fileID: 0}
   lerpSpeed: 5
+  cucumberCol: {fileID: 0}
+  followCamera: {fileID: 4407722472022839210, guid: 679eb5a65520c604a910fd17c8eb0962, type: 3}
 --- !u!95 &5740594110114300159
 Animator:
   serializedVersion: 4
@@ -256,7 +258,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 5740594110114300102}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1ba4ac7ae68394b419a9cea21a82f182, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
