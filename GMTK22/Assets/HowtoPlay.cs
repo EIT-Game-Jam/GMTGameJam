@@ -35,18 +35,31 @@ public class HowtoPlay : MonoBehaviour
     public void NextTrue(bool GoNext)
     {
         GoToNextPage = GoNext;
-        if(GoToNextPage = true)
+        if(GoToNextPage == true)
         {
+            if(NextCounter<pages.Length-1)
+            {
+            pages[NextCounter].SetActive(false);
             NextCounter++;
+            pages[NextCounter].SetActive(true);
+            }
         }
+        GoToNextPage = false;
     }
 
     public void PreviousTrue(bool GoBack)
     {
         GoToPreviousPage = GoBack;
-        if(GoToPreviousPage = true)
+        if(GoToPreviousPage == true)
         {
+            if(NextCounter>=0)
+            {
+            pages[NextCounter].SetActive(false);
             NextCounter--;
+            pages[NextCounter].SetActive(true);
+            }
         }
+        
+        GoToPreviousPage = false;
     }
 }
