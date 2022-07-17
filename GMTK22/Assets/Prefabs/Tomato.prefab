@@ -17,7 +17,15 @@ GameObject:
   - component: {fileID: 8945177751798519211}
   m_Layer: 0
   m_Name: Tomato
+<<<<<<< HEAD
   m_TagString: Player
+=======
+<<<<<<< HEAD
+  m_TagString: Untagged
+=======
+  m_TagString: Player
+>>>>>>> origin/Malthe
+>>>>>>> main
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,6 +138,25 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 98f35001-b780-4887-9f7a-5dbb81122149
     m_ActionName: Player2/TwoPlayer[/Keyboard/p]
+<<<<<<< HEAD
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7758870101542095830}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Paused
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a3d2093a-679a-4727-99f9-05988cafa826
+    m_ActionName: Player/Pause[/Keyboard/p]
+=======
+>>>>>>> origin/Malthe
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Keyboard
   m_DefaultActionMap: Player
@@ -175,7 +202,15 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 1
+=======
+<<<<<<< HEAD
+  m_SortingOrder: 2
+=======
+  m_SortingOrder: 1
+>>>>>>> origin/Malthe
+>>>>>>> main
   m_Sprite: {fileID: 21300000, guid: d51b0a414ec624947a0c46a2ef8ac922, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -225,11 +260,26 @@ MonoBehaviour:
   rb: {fileID: 7758870101542095849}
   animator: {fileID: 7758870101542095851}
   used: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  ifTwoPlayer: 1
+  isPaused: 0
+=======
+>>>>>>> origin/Malthe
+>>>>>>> main
   mainCamera: {fileID: 0}
   lerpSpeed: 5
   cucumberCol: {fileID: 0}
   followCamera: {fileID: 4407722472022839210, guid: 679eb5a65520c604a910fd17c8eb0962, type: 3}
+<<<<<<< HEAD
   diceNum: 0
+=======
+<<<<<<< HEAD
+=======
+  diceNum: 0
+>>>>>>> origin/Malthe
+>>>>>>> main
 --- !u!95 &7758870101542095851
 Animator:
   serializedVersion: 4

@@ -6,9 +6,12 @@ TagManager:
   tags:
   - Pipe
   - Key
+<<<<<<< HEAD
   - Chopper
   - Lift
   - Power
+=======
+>>>>>>> main
   layers:
   - Default
   - TransparentFX

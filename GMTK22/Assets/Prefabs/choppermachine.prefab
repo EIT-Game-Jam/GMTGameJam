@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1 &4580287383104883184
 GameObject:
   m_ObjectHideFlags: 0
@@ -84,6 +85,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> main
 --- !u!1 &5162555576512627832
 GameObject:
   m_ObjectHideFlags: 0
@@ -96,8 +99,11 @@ GameObject:
   - component: {fileID: 7813716204908867596}
   - component: {fileID: 834528506249393704}
   - component: {fileID: 5533068118477681312}
+<<<<<<< HEAD
   - component: {fileID: 6415131176503041942}
   - component: {fileID: 323966235329275645}
+=======
+>>>>>>> main
   m_Layer: 0
   m_Name: choppermachine
   m_TagString: Untagged
@@ -116,9 +122,13 @@ Transform:
   m_LocalPosition: {x: 30.48, y: 6.2, z: 0}
   m_LocalScale: {x: 6.5596, y: 6.5596, z: 6.5596}
   m_ConstrainProportionsScale: 0
+<<<<<<< HEAD
   m_Children:
   - {fileID: 5438032601616061385}
   - {fileID: 6942411021584598503}
+=======
+  m_Children: []
+>>>>>>> main
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -162,6 +172,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a3fe5d6bf9d47094091854a12b622679, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -169,6 +180,15 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 10.24, y: 10.24}
+=======
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 78ccbed55ceecd34e92abda18fe493ef, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.56, y: 2.56}
+>>>>>>> main
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -187,18 +207,31 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
+<<<<<<< HEAD
   m_Offset: {x: 0.25927252, y: -2.082769}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 10.24, y: 10.24}
     newSize: {x: 10.24, y: 10.24}
+=======
+  m_Offset: {x: -0.35695177, y: 0.17317432}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+>>>>>>> main
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 3.8063183, y: 1.3820171}
+=======
+  m_Size: {x: 1.029049, y: 1.161777}
+>>>>>>> main
   m_EdgeRadius: 0
 --- !u!114 &5533068118477681312
 MonoBehaviour:
@@ -212,6 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5694b290681b7ed49bd7f9d014e34434, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   UI: {fileID: 6475095879245321434}
   readyToBeUsed: 0
   once: 0
@@ -351,3 +385,8 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+=======
+  UI: {fileID: 0}
+  readyToBeUsed: 0
+  once: 0
+>>>>>>> main

@@ -14,9 +14,19 @@ public class AddPlayers : MonoBehaviour
     public PlayerInput cucumberInput;
     public PlayerInput tomatoInput;
 
+<<<<<<< HEAD
     public GameObject divider;
 
 
+=======
+<<<<<<< HEAD
+    public bool ifTwoPlayer = true;
+=======
+    public GameObject divider;
+
+
+>>>>>>> origin/Malthe
+>>>>>>> main
 
     void awake()
     {
@@ -34,7 +44,14 @@ public class AddPlayers : MonoBehaviour
             tomatoInput = PlayerInput.Instantiate(tomato, controlScheme: "Keyboard2", pairWithDevice: Keyboard.current);
             cucumberInput.transform.position = cucumberSpawn.position;
             tomatoInput.transform.position = tomatoSpawn.position;
+<<<<<<< HEAD
             divider.SetActive(false);
+=======
+<<<<<<< HEAD
+=======
+            divider.SetActive(false);
+>>>>>>> origin/Malthe
+>>>>>>> main
     }
 
         if(PlayerPrefs.GetInt("TwoPlayer") == 1){

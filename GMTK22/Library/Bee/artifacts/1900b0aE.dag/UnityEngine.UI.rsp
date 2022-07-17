@@ -115,7 +115,14 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+<<<<<<< HEAD
 -define:ENABLE_LEGACY_INPUT_MANAGER
+=======
+<<<<<<< HEAD
+=======
+-define:ENABLE_LEGACY_INPUT_MANAGER
+>>>>>>> origin/Malthe
+>>>>>>> main
 -define:PACKAGE_PHYSICS
 -define:PACKAGE_PHYSICS2D
 -define:PACKAGE_TILEMAP

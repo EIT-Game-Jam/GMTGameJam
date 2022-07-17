@@ -248,8 +248,11 @@ GameObject:
   - component: {fileID: 5713275656809052741}
   - component: {fileID: 1893649009789779281}
   - component: {fileID: 4353710439074775356}
+<<<<<<< HEAD
   - component: {fileID: 2059480508027617272}
   - component: {fileID: 1382481727476862703}
+=======
+>>>>>>> main
   m_Layer: 0
   m_Name: Vertical Chopper
   m_TagString: Untagged
@@ -266,7 +269,11 @@ Transform:
   m_GameObject: {fileID: 5713275656809052742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 119.6, y: 181, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 1.8403687, y: 1.8403687, z: 1.8403687}
+=======
+  m_LocalScale: {x: 6.6869, y: 6.6869, z: 6.6869}
+>>>>>>> main
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6796554383719984676}
@@ -356,6 +363,7 @@ MonoBehaviour:
   UI: {fileID: 356251867214393414}
   readyToBeUsed: 0
   once: 0
+<<<<<<< HEAD
 --- !u!114 &2059480508027617272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,3 +400,5 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+>>>>>>> main

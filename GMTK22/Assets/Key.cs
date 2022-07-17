@@ -18,14 +18,21 @@ public class Key : MonoBehaviour
 
     public void Use(Collider2D col)
     {
+<<<<<<< HEAD
         
+=======
+        Debug.Log(col);
+>>>>>>> main
 
         if(col.gameObject.tag == "Player")
         {
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<CircleCollider2D>().enabled = false;
             transform.parent = col.transform;
+<<<<<<< HEAD
             GetComponent<UseStuff>().enabled = false;   
+=======
+>>>>>>> main
 
         }
 

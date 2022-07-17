@@ -40,6 +40,18 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+<<<<<<< HEAD
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "a3d2093a-679a-4727-99f9-05988cafa826",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+=======
+>>>>>>> origin/Malthe
                 }
             ],
             "bindings": [
@@ -229,6 +241,20 @@
                     "action": "TwoPlayer",
                     "isComposite": false,
                     "isPartOfComposite": false
+<<<<<<< HEAD
+                },
+                {
+                    "name": "",
+                    "id": "429e2477-72b7-4cb3-94d4-e849c29682c0",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard;Keyboard2",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+=======
+>>>>>>> origin/Malthe
                 }
             ]
         },
