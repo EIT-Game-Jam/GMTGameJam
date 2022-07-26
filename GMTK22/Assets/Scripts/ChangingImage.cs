@@ -8,6 +8,8 @@ public class ChangingImage : MonoBehaviour
     public Image original;
     public Sprite newSprite;
     public Sprite oldSprite;
+    public bool isOn = true;
+    public AudioSource switchAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -23,11 +25,23 @@ public class ChangingImage : MonoBehaviour
 
     public void NewImage()
     {
+        isOn = true;
         original.sprite = newSprite;
     }
 
     public void OldImage()
     {
+        isOn = false;
         original.sprite = oldSprite;
     }
+
+    public void PlaySound()
+    {
+        if(isOn == false)
+        {
+            switchAudio.Play();
+        }
+        
+    }
+
 }

@@ -12,8 +12,6 @@ public class Pipe : MonoBehaviour
     private float elapsedTime;
     private GameObject player;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public bool isClosed;
 
     [SerializeField] private Sprite openSprite;
@@ -23,24 +21,12 @@ public class Pipe : MonoBehaviour
     void Start()
     {
 
-=======
-=======
->>>>>>> main
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
+
     }
 
     // Update is called once per frame
     void Update()
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
 
         if (isClosed == true)
         {
@@ -84,31 +70,10 @@ public class Pipe : MonoBehaviour
         }
 
 
-        if (otherPipe.GetComponent<UseStuff>().once == true)
-=======
-=======
->>>>>>> main
-        if(lerping == true)
-        {
-            elapsedTime += Time.deltaTime;
-            var percentageComplete = elapsedTime/lerpSpeed;
-            player.transform.position = Vector3.Lerp(player.transform.position , otherPipe.transform.position - new Vector3(0,1,0), percentageComplete);
-        
-            if(player.transform.position == otherPipe.transform.position- new Vector3(0,1,0))
-            {
-                lerping = false;
-                elapsedTime = 0f;
-                player.GetComponent<SpriteRenderer>().enabled = true;
-            }
-        
-        }
+
         
 
         if(otherPipe.GetComponent<UseStuff>().once == true)
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
         {
             GetComponent<UseStuff>().once = true;
         }
@@ -118,28 +83,13 @@ public class Pipe : MonoBehaviour
     public void Use(Collider2D col)
     {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         if (col.gameObject.GetComponent<SpriteRenderer>() != null && col.gameObject.tag == "Player" && isClosed == false)
-=======
-        if(col.gameObject.GetComponent<SpriteRenderer>() != null && col.gameObject.tag == "Player")
->>>>>>> main
-=======
-        if(col.gameObject.GetComponent<SpriteRenderer>() != null && col.gameObject.tag == "Player")
->>>>>>> main
         {
             player = col.gameObject;
             player.GetComponent<SpriteRenderer>().enabled = false;
             lerping = true;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-            
->>>>>>> main
-=======
-            
->>>>>>> main
 
         }
 

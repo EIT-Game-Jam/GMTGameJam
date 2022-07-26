@@ -38,13 +38,11 @@ public class UseStuff : MonoBehaviour
                 readyToBeUsed = false;
             }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
             else if (this.gameObject.tag == "Chopper" && readyToBeUsed == true && colli.gameObject.GetComponent<PlayerMovement>().used == true)
             {
                 once = true;
                 GetComponent<Chopper>().isOn = !GetComponent<Chopper>().isOn;
-                
+
             }
 
             else if (this.gameObject.tag == "Lift" && readyToBeUsed == true && colli.gameObject.GetComponent<PlayerMovement>().used == true)
@@ -53,22 +51,18 @@ public class UseStuff : MonoBehaviour
                 GetComponent<lift>().isOn = !GetComponent<lift>().isOn;
                 GetComponent<lift>().Use(colli);
                 readyToBeUsed = false;
-                
+
             }
 
             else if (this.gameObject.tag == "Power" && readyToBeUsed == true && colli.gameObject.GetComponent<PlayerMovement>().used == true)
             {
                 once = true;
-               
+
                 GetComponent<power>().Use(colli);
                 readyToBeUsed = false;
-                
+
             }
 
-=======
->>>>>>> main
-=======
->>>>>>> main
 
 
         }
@@ -85,15 +79,14 @@ public class UseStuff : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
         UI.SetActive(true);
 
         readyToBeUsed = true;
         colli = col;
 
-        if(this.gameObject.tag == "Chopper")
+        if (this.gameObject.tag == "Chopper")
         {
             GetComponent<Chopper>().Use(col);
         }
@@ -102,7 +95,7 @@ public class UseStuff : MonoBehaviour
     }
 
 
-        void OnTriggerStay2D(Collider2D col)
+    void OnTriggerStay2D(Collider2D col)
     {
 
         UI.SetActive(true);
@@ -110,7 +103,7 @@ public class UseStuff : MonoBehaviour
         readyToBeUsed = true;
         colli = col;
 
-        if(this.gameObject.tag == "Chopper")
+        if (this.gameObject.tag == "Chopper")
         {
             GetComponent<Chopper>().Use(col);
         }
@@ -119,23 +112,8 @@ public class UseStuff : MonoBehaviour
     }
 
 
-=======
-=======
->>>>>>> main
-        if (this.gameObject.tag != "Key")
-        {
-            UI.SetActive(true);
-        }
-        readyToBeUsed = true;
-        colli = col;
 
 
-    }
-
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
     void OnTriggerExit2D(Collider2D col)
     {
 
@@ -146,21 +124,15 @@ public class UseStuff : MonoBehaviour
                 once = false;
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
         UI.SetActive(false);
 
-=======
-=======
->>>>>>> main
+
         if (this.gameObject.tag != "Key")
         {
             UI.SetActive(false);
         }
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
+
         readyToBeUsed = false;
         colli = null;
 

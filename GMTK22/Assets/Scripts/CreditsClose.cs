@@ -8,7 +8,8 @@ public class CreditsClose : MonoBehaviour
 
     void Update()
     {
-        if (creditsAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !creditsAnim.IsInTransition(0))
+        
+        if (creditsAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.5f && !creditsAnim.IsInTransition(0))
         {
             close();
         }
