@@ -3,7 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
+<<<<<<< HEAD
   tags: []
+=======
+  tags:
+  - Pipe
+  - Key
+<<<<<<< HEAD
+<<<<<<< HEAD
+  - Chopper
+  - Lift
+  - Power
+=======
+>>>>>>> main
+=======
+>>>>>>> main
+>>>>>>> parent of c8494029 (Merged with malthe)
   layers:
   - Default
   - TransparentFX

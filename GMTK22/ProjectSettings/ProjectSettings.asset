@@ -621,7 +621,25 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
+<<<<<<< HEAD
   activeInputHandler: 1
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  activeInputHandler: 2
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> main
+  activeInputHandler: 1
+=======
+  activeInputHandler: 2
+>>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> main
+=======
+>>>>>>> main
+>>>>>>> parent of c8494029 (Merged with malthe)
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []

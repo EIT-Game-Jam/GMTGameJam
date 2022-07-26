@@ -115,6 +115,23 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+-define:ENABLE_LEGACY_INPUT_MANAGER
+=======
+<<<<<<< HEAD
+=======
+-define:ENABLE_LEGACY_INPUT_MANAGER
+>>>>>>> origin/Malthe
+>>>>>>> main
+=======
+=======
+-define:ENABLE_LEGACY_INPUT_MANAGER
+>>>>>>> origin/Malthe
+>>>>>>> main
+>>>>>>> parent of c8494029 (Merged with malthe)
 -define:ENABLE_ANIMATION_BURST
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
