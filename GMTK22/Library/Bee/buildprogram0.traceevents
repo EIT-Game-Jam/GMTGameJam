@@ -2,6 +2,7 @@
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 35942, "tid": 1, "ts": 1658866261096693, "dur": 549465, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658866261097564, "dur": 79972, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658866261542948, "dur": 2970, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -10,6 +11,8 @@
 { "pid": 35942, "tid": 1, "ts": 1658866261651804, "dur": 1283, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658866261650847, "dur": 2274, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 =======
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
 <<<<<<< HEAD
 { "pid": 35942, "tid": 1, "ts": 1658083239577585, "dur": 144868, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658083239578475, "dur": 43726, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
@@ -43,6 +46,9 @@
 =======
 >>>>>>> main
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 =======
 >>>>>>> parent of c8494029 (Merged with malthe)
