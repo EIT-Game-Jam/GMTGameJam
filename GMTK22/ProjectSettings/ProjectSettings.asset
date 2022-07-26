@@ -625,7 +625,6 @@ PlayerSettings:
   activeInputHandler: 1
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
   activeInputHandler: 2
 =======
 <<<<<<< HEAD
@@ -639,6 +638,9 @@ PlayerSettings:
 >>>>>>> main
 =======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0

@@ -1,5 +1,6 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1658868660436733, "dur":1605, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1658868660438345, "dur":665, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1658868660439133, "dur":58, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1716,6 +1717,8 @@
 ,{ "pid":12345, "tid":0, "ts":1658868661153600, "dur":4078, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
 ,{ "pid":12345, "tid":0, "ts":1658062983997978, "dur":1560, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1658062983999546, "dur":560, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1658062984000213, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -5229,5 +5232,8 @@
 ,{ "pid":12345, "tid":16, "ts":1658063350033417, "dur":1333726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1658063351370837, "dur":3921, "ph":"X", "name": "ProfilerWriteOutput" }
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 ,

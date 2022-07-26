@@ -20,10 +20,13 @@ MonoBehaviour:
     height: 758.4
   m_ShowMode: 4
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
 =======
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
   m_Title: Inspector
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
@@ -43,6 +46,9 @@ MonoBehaviour:
   m_MinSize: {x: 875, y: 350}
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
@@ -71,7 +77,12 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 17
+=======
+  controlID: 100
+>>>>>>> main
+>>>>>>> parent of c8494029 (Merged with malthe)
 =======
   controlID: 100
 >>>>>>> main
@@ -102,7 +113,12 @@ MonoBehaviour:
   - {fileID: 16}
   m_Selected: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSelected: 0
+=======
+  m_LastSelected: 1
+>>>>>>> main
+>>>>>>> parent of c8494029 (Merged with malthe)
 =======
   m_LastSelected: 1
 >>>>>>> main
@@ -144,8 +160,11 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
@@ -308,6 +327,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1122.4
     height: 419.2
   m_MinSize: {x: 200, y: 100}
@@ -316,6 +336,8 @@ MonoBehaviour:
   controlID: 71
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
     width: 1460
     height: 764
   m_MinSize: {x: 100, y: 200}
@@ -361,6 +383,9 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 --- !u!114 &11
 MonoBehaviour:
@@ -378,9 +403,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 278.4
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
     x: 341.6
 >>>>>>> parent of c8494029 (Merged with malthe)
     y: 0
@@ -420,6 +448,9 @@ MonoBehaviour:
   - {fileID: 12}
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_Selected: 0
   m_LastSelected: 1
@@ -432,6 +463,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -707,6 +739,8 @@ MonoBehaviour:
 =======
 <<<<<<< HEAD
 >>>>>>> parent of c8494029 (Merged with malthe)
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -719,6 +753,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 7.2000003
     y: 500
     width: 1121.4
@@ -726,6 +761,11 @@ MonoBehaviour:
 =======
     x: 0
 <<<<<<< HEAD
+    y: 558.4
+    width: 1024.6
+    height: 217
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
     y: 558.4
     width: 1024.6
     height: 217
@@ -748,8 +788,11 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes
 =======
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
     - Assets
     m_Globs: []
     m_OriginalText: 
@@ -957,9 +1000,12 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000052f8ffff
 =======
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300005c5f0000a072ffffb06d000000000000fed9ffff8a6afeffc2600000c4600000c6600000
 >>>>>>> parent of c8494029 (Merged with malthe)
@@ -992,7 +1038,10 @@ MonoBehaviour:
   m_DirectoriesAreaWidth: 207
 --- !u!114 &16
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
 >>>>>>> origin/Malthe
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1432,6 +1481,9 @@ MonoBehaviour:
   m_ShowBusConnections: 0
   m_ShowBusConnectionsOfSelection: 0
 --- !u!114 &16
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1453,15 +1505,21 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1129.6
     y: 80.8
     width: 398.19995
     height: 687.4
 =======
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
     x: 1025.6
     y: 73.6
     width: 509.40002
     height: 701.8
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1481,7 +1539,6 @@ MonoBehaviour:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &17
-<<<<<<< HEAD
 =======
 =======
   m_LockTracker:
@@ -1493,6 +1550,9 @@ MonoBehaviour:
 --- !u!114 &17
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1540,6 +1600,9 @@ MonoBehaviour:
     height: 604
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1551,13 +1614,19 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: 92a3ffffeaa3ffff30a4ffffbea4ffff02a5ffff48a5ffff88a5ffffd8a5ffff1ca6ffff62a6ffffa6a6fffff0a6ffff1afaffff28fbffffc2640000f064000026650000ac650000d66600003e670000266800005c68000030690000
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
       m_ExpandedIDs: a611ffff7412ffff9a17ffffaa17ffff3819ffff101bffff201bffff201dffff301dffff1024ffff2024ffff825fffff5061ffff5865ffff90baffffd8baffff06bcffff48d1ffff7cd1ffff28fbffff2eb00000
 =======
       m_ExpandedIDs: 3efaffff
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1583,9 +1652,12 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &18
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
 --- !u!114 &18
 =======
 <<<<<<< HEAD
@@ -1594,6 +1666,9 @@ MonoBehaviour:
 --- !u!114 &18
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1641,6 +1716,9 @@ MonoBehaviour:
     height: 604
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1866,11 +1944,14 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 1023.0888, y: -21.743286, z: 851.4664}
     speed: 2
     m_Value: {x: 1023.0888, y: -21.743286, z: 851.4664}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
     m_Target: {x: -5.642216, y: 44.0058, z: -1.3328519}
     speed: 2
     m_Value: {x: -6.9710245, y: 43.22796, z: -1.3150913}
@@ -1885,6 +1966,9 @@ MonoBehaviour:
     m_Value: {x: 978.07245, y: -12.981499, z: 15568.08}
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_RenderMode: 0
   m_CameraMode:
@@ -1937,11 +2021,14 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 167.12581
     speed: 2
     m_Value: 167.12581
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
     m_Target: 41.24416
     speed: 2
     m_Value: 39.468094
@@ -1956,6 +2043,9 @@ MonoBehaviour:
     m_Value: 102.354164
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_Ortho:
     m_Target: 1
@@ -1982,9 +2072,12 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &19
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
 --- !u!114 &19
 =======
 <<<<<<< HEAD
@@ -1993,6 +2086,9 @@ MonoBehaviour:
 --- !u!114 &19
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2040,6 +2136,9 @@ MonoBehaviour:
     height: 604
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2052,9 +2151,12 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 844.39996, y: 377.2}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
   m_TargetSize: {x: 682, y: 442.8}
 =======
 <<<<<<< HEAD
@@ -2063,6 +2165,9 @@ MonoBehaviour:
   m_TargetSize: {x: 961, y: 583}
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
@@ -2079,12 +2184,15 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -337.75998
     m_HBaseRangeMax: 337.75998
     m_VBaseRangeMin: -150.88
     m_VBaseRangeMax: 150.88
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
     m_HBaseRangeMin: -272.80002
     m_HBaseRangeMax: 272.80002
     m_VBaseRangeMin: -177.12
@@ -2102,6 +2210,9 @@ MonoBehaviour:
     m_VBaseRangeMax: 291.5
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
@@ -2121,12 +2232,15 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 844.39996
       height: 377.2
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 422.19998, y: 188.6}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
       width: 682
       height: 442.8
     m_Scale: {x: 1, y: 1}
@@ -2144,6 +2258,9 @@ MonoBehaviour:
     m_Translation: {x: 480.5, y: 291.5}
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -2151,6 +2268,7 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -422.19998
       y: -188.6
@@ -2161,6 +2279,8 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 1055.5, y: 497.75}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
       x: -341
       y: -221.4
       width: 682
@@ -2187,6 +2307,9 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 961, y: 604}
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -2194,8 +2317,11 @@ MonoBehaviour:
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of c8494029 (Merged with malthe)
 =======
 <<<<<<< HEAD
 --- !u!114 &19
@@ -2341,6 +2467,9 @@ MonoBehaviour:
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 --- !u!114 &20
 MonoBehaviour:
@@ -2388,6 +2517,9 @@ MonoBehaviour:
     width: 1466
     height: 301
 >>>>>>> origin/Malthe
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:

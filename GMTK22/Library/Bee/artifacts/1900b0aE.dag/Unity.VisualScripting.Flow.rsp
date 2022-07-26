@@ -118,7 +118,6 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
 -define:ENABLE_LEGACY_INPUT_MANAGER
 =======
 <<<<<<< HEAD
@@ -131,6 +130,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 >>>>>>> origin/Malthe
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 -define:PACKAGE_INPUT_SYSTEM_EXISTS
 -define:PACKAGE_INPUT_SYSTEM_1_2_0_OR_NEWER_EXISTS
@@ -387,6 +389,9 @@
 >>>>>>> main
 =======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.ref.dll"

@@ -11,7 +11,6 @@
 { "pid": 35942, "tid": 1, "ts": 1658866261650847, "dur": 2274, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
 { "pid": 35942, "tid": 1, "ts": 1658083239577585, "dur": 144868, "ph": "X", "name": "BuildProgram", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658083239578475, "dur": 43726, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
 { "pid": 35942, "tid": 1, "ts": 1658083239707648, "dur": 3985, "ph": "X", "name": "OutputData.Write", "args": {} },
@@ -43,4 +42,7 @@
 >>>>>>> main
 =======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)

@@ -1735,7 +1735,6 @@
 { "pid": 0, "tid": 1, "ts": 1658868661340539, "dur": 5726, "ph": "X", "name": "Write chrome-trace events", "args": {} },
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
 { "pid": 0, "tid": 1, "ts": 1658093131704081, "dur": 2056055, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1658093131706141, "dur": 106788, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1658093131813110, "dur": 1846356, "ph": "X", "name": "Run Backend", "args": {} },
@@ -7009,6 +7008,9 @@
 >>>>>>> main
 =======
 >>>>>>> main
+<<<<<<< HEAD
+>>>>>>> parent of c8494029 (Merged with malthe)
+=======
 >>>>>>> parent of c8494029 (Merged with malthe)
 {}
 
