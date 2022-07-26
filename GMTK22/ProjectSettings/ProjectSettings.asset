@@ -658,6 +658,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   activeInputHandler: 2
 =======
 <<<<<<< HEAD
@@ -671,6 +672,9 @@ PlayerSettings:
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+  activeInputHandler: 2
+>>>>>>> Malthe
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []

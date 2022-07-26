@@ -200,16 +200,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25415385}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &25415389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,14 +215,6 @@ MonoBehaviour:
   original: {fileID: 25415387}
   newSprite: {fileID: 21300000, guid: 26c21a1d9be3263439008accc1d15b77, type: 3}
   oldSprite: {fileID: 21300000, guid: cbdc1aa545c64e94b87ea7e7c0afee02, type: 3}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &40905807
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +310,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &79891186
 RectTransform:
   m_ObjectHideFlags: 0
@@ -354,28 +336,10 @@ RectTransform:
   - {fileID: 1235892866}
   - {fileID: 1090278811}
   - {fileID: 1565797605}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   - {fileID: 1094139627}
   - {fileID: 460837133}
   - {fileID: 376322216}
   - {fileID: 956938588}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Father: {fileID: 2135438772}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -445,16 +409,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &79891190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -470,14 +424,6 @@ MonoBehaviour:
   original: {fileID: 0}
   newSprite: {fileID: 0}
   oldSprite: {fileID: 0}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &102762674
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,48 +634,16 @@ MonoBehaviour:
   m_FillRect: {fileID: 277784757}
   m_HandleRect: {fileID: 1645190474}
   m_Direction: 0
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_MinValue: -30
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-  m_MinValue: -80
-=======
-  m_MinValue: -30
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
       - m_Target: {fileID: 1894082170}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: setSFXVolume
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-      - m_Target: {fileID: 138843436}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: setVolume
-=======
-      - m_Target: {fileID: 1894082170}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: setSFXVolume
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -816,8 +730,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120579120}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &137877282
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,7 +864,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137877282}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &138843430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,8 +1101,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &230797665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1461,7 +1370,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237689240}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &243092330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1625,20 +1533,7 @@ RectTransform:
   - {fileID: 2080224372}
   - {fileID: 973848889}
   - {fileID: 398494142}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   - {fileID: 1104081658}
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-=======
-  - {fileID: 1104081658}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Father: {fileID: 138843431}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1896,8 +1791,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277784756}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &284618095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,18 +1887,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 816153060}
-        m_TargetAssemblyTypeName: HowtoPlay, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &284618098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2044,7 +1925,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284618095}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &292665937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,8 +2060,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292665937}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &301579322
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,7 +2157,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301579322}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &334415597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2702,16 +2579,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361900249}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &376322215
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,14 +2655,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376322215}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &377512067
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,8 +2832,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398494140}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &398820028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3245,7 +3102,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409839761}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &423438360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3718,16 +3574,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &500354696
 GameObject:
   m_ObjectHideFlags: 0
@@ -3921,14 +3767,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4013,16 +3851,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &521507322
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,14 +3986,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521507322}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &542216292
 GameObject:
   m_ObjectHideFlags: 0
@@ -4390,7 +4210,7 @@ RectTransform:
   m_Children:
   - {fileID: 1037175082}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4449,7 +4269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.1509434, g: 0.1473834, b: 0.1473834, a: 0.94509804}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4473,16 +4293,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558902011}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &569652006
 GameObject:
   m_ObjectHideFlags: 0
@@ -4611,14 +4421,6 @@ Transform:
   m_Father: {fileID: 1600456089}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &570238777
 GameObject:
   m_ObjectHideFlags: 0
@@ -4725,7 +4527,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &586505312
 Camera:
@@ -5220,8 +5022,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685727859}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &753911317
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,7 +5157,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753911317}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &775089716
 GameObject:
   m_ObjectHideFlags: 0
@@ -5449,8 +5248,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775089716}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &787389284
 GameObject:
   m_ObjectHideFlags: 0
@@ -5586,7 +5383,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787389284}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &791923811
 GameObject:
   m_ObjectHideFlags: 0
@@ -5722,11 +5518,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791923811}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
---- !u!1 &797930684
-=======
 --- !u!1 &807491453
->>>>>>> origin/Malthe
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5734,55 +5526,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 797930685}
-  - component: {fileID: 797930688}
-  - component: {fileID: 797930687}
-  - component: {fileID: 797930686}
-  m_Layer: 0
-  m_Name: Next Page
-=======
   - component: {fileID: 807491454}
   - component: {fileID: 807491457}
   - component: {fileID: 807491456}
   - component: {fileID: 807491455}
   m_Layer: 0
   m_Name: nextPag
->>>>>>> origin/Malthe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 0
---- !u!224 &797930685
-=======
   m_IsActive: 1
 --- !u!224 &807491454
->>>>>>> origin/Malthe
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 797930684}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9875, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 862176621}
-  m_Father: {fileID: 816153061}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 341.3, y: -177.2}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &797930686
-=======
   m_GameObject: {fileID: 807491453}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -5799,17 +5559,12 @@ RectTransform:
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &807491455
->>>>>>> origin/Malthe
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 797930684}
-=======
   m_GameObject: {fileID: 807491453}
->>>>>>> origin/Malthe
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -5843,13 +5598,6 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-<<<<<<< HEAD
-  m_TargetGraphic: {fileID: 797930687}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &797930687
-=======
   m_TargetGraphic: {fileID: 807491456}
   m_OnClick:
     m_PersistentCalls:
@@ -5866,30 +5614,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 816153060}
-        m_TargetAssemblyTypeName: HowtoPlay, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &807491456
->>>>>>> origin/Malthe
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 797930684}
-=======
   m_GameObject: {fileID: 807491453}
->>>>>>> origin/Malthe
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -5913,21 +5644,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-<<<<<<< HEAD
---- !u!222 &797930688
-=======
 --- !u!222 &807491457
->>>>>>> origin/Malthe
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 797930684}
-=======
   m_GameObject: {fileID: 807491453}
->>>>>>> origin/Malthe
   m_CullTransparentMesh: 1
 --- !u!1 &816153060
 GameObject:
@@ -5942,21 +5665,14 @@ GameObject:
   - component: {fileID: 816153063}
   - component: {fileID: 816153062}
   - component: {fileID: 816153065}
-<<<<<<< HEAD
-=======
   - component: {fileID: 816153066}
->>>>>>> origin/Malthe
   m_Layer: 0
   m_Name: Tutorial
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 0
-=======
   m_IsActive: 1
->>>>>>> origin/Malthe
 --- !u!224 &816153061
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5971,11 +5687,6 @@ RectTransform:
   m_Children:
   - {fileID: 558902012}
   - {fileID: 1367958233}
-<<<<<<< HEAD
-  - {fileID: 1234667382}
-  - {fileID: 797930685}
-  - {fileID: 903753380}
-=======
   - {fileID: 1872560663}
   - {fileID: 2058907764}
   - {fileID: 1422174455}
@@ -5996,7 +5707,6 @@ RectTransform:
   - {fileID: 1413442368}
   - {fileID: 1465788208}
   - {fileID: 2117123487}
->>>>>>> origin/Malthe
   m_Father: {fileID: 2135438772}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6078,8 +5788,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b1c5f1d829a81947a77234a2e7557a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
-=======
 --- !u!114 &816153066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6092,12 +5800,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24cdbcebac8e0434aa2604590734f646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pages:
+  - {fileID: 1872560662}
+  - {fileID: 2058907763}
+  - {fileID: 1422174454}
   NextPage: {fileID: 0}
   GoToNextPage: 0
   NextCounter: 0
   PreviousPage: {fileID: 0}
   GoToPreviousPage: 0
->>>>>>> origin/Malthe
 --- !u!1 &847426803
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,8 +5900,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 0
-<<<<<<< HEAD
-=======
 --- !u!1 &858688934
 GameObject:
   m_ObjectHideFlags: 0
@@ -6326,7 +6035,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858688934}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &859362753
 GameObject:
   m_ObjectHideFlags: 0
@@ -6403,89 +6111,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859362753}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
---- !u!1 &862176620
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 862176621}
-  - component: {fileID: 862176623}
-  - component: {fileID: 862176622}
-  m_Layer: 0
-  m_Name: Text (Legacy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &862176621
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862176620}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 797930685}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &862176622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862176620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Next Page
---- !u!222 &862176623
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862176620}
-  m_CullTransparentMesh: 1
-=======
->>>>>>> origin/Malthe
 --- !u!1 &862704244
 GameObject:
   m_ObjectHideFlags: 0
@@ -6562,8 +6187,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 862704244}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &870950751
 GameObject:
   m_ObjectHideFlags: 0
@@ -6758,7 +6381,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881415167}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &884299689
 GameObject:
   m_ObjectHideFlags: 0
@@ -6925,18 +6547,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 816153061}
-<<<<<<< HEAD
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-  m_Pivot: {x: 0.5, y: 1}
-=======
-  m_Pivot: {x: 0.5, y: 0.5}
-=======
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -6944,11 +6554,6 @@ RectTransform:
   m_AnchoredPosition: {x: -14, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 1}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &903753381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7046,13 +6651,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903753379}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-=======
 --- !u!1 &925126192
 GameObject:
   m_ObjectHideFlags: 0
@@ -7188,10 +6786,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925126192}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &956938587
 GameObject:
   m_ObjectHideFlags: 0
@@ -7289,14 +6883,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 956938587}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &970038515
 GameObject:
   m_ObjectHideFlags: 0
@@ -7309,22 +6895,8 @@ GameObject:
   - component: {fileID: 970038518}
   - component: {fileID: 970038517}
   - component: {fileID: 970038516}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   - component: {fileID: 970038520}
   - component: {fileID: 970038521}
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-=======
-  - component: {fileID: 970038520}
-  - component: {fileID: 970038521}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Layer: 0
   m_Name: Credit
   m_TagString: Untagged
@@ -7389,21 +6961,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_AdditionalShaderChannelsFlag: 25
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-  m_AdditionalShaderChannelsFlag: 0
-=======
-  m_AdditionalShaderChannelsFlag: 25
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
@@ -7420,20 +6978,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1010978156}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   - {fileID: 1402857028}
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-=======
-  - {fileID: 1402857028}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Father: {fileID: 2135438772}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7442,16 +6987,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &970038520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7485,14 +7020,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &973848888
 GameObject:
   m_ObjectHideFlags: 0
@@ -7667,8 +7194,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974673324}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &978461450
 GameObject:
   m_ObjectHideFlags: 0
@@ -7766,7 +7291,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978461450}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &990376073
 GameObject:
   m_ObjectHideFlags: 0
@@ -7917,8 +7441,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-=======
 --- !u!1 &1015078014
 GameObject:
   m_ObjectHideFlags: 0
@@ -7971,7 +7493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -7995,7 +7517,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1015078014}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &1037175081
 GameObject:
   m_ObjectHideFlags: 0
@@ -8149,7 +7670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1090278811
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8167,24 +7688,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_AnchoredPosition: {x: -109.7, y: -205.66571}
   m_SizeDelta: {x: 113.267, y: 42.977}
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: -61, y: -194}
-  m_SizeDelta: {x: 200, y: 50}
-=======
-  m_AnchoredPosition: {x: -109.7, y: -205.66571}
-  m_SizeDelta: {x: 113.267, y: 42.977}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090278812
 MonoBehaviour:
@@ -8242,16 +7747,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
       - m_Target: {fileID: 1907959824}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
@@ -8264,14 +7759,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &1090278813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8369,16 +7856,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090278810}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1094139626
 GameObject:
   m_ObjectHideFlags: 0
@@ -8574,11 +8051,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 116ece06678397041b20f470d95f1c90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1104398999
 GameObject:
   m_ObjectHideFlags: 0
@@ -8631,7 +8103,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -8655,10 +8127,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104398999}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1119028402
 GameObject:
   m_ObjectHideFlags: 0
@@ -8752,14 +8220,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119028402}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1126580368
 GameObject:
   m_ObjectHideFlags: 0
@@ -9018,7 +8478,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1185811573
 GameObject:
@@ -9290,8 +8750,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198307323}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &1232446507
 GameObject:
   m_ObjectHideFlags: 0
@@ -9427,7 +8885,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232446507}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &1234667381
 GameObject:
   m_ObjectHideFlags: 0
@@ -9460,11 +8917,7 @@ RectTransform:
   m_Children:
   - {fileID: 1595288795}
   m_Father: {fileID: 816153061}
-<<<<<<< HEAD
-  m_RootOrder: 2
-=======
   m_RootOrder: 5
->>>>>>> origin/Malthe
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -9984,7 +9437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -10196,21 +9649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_AnchoredPosition: {x: 112.61, y: -196.7157}
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-  m_AnchoredPosition: {x: 101, y: -189}
-=======
-  m_AnchoredPosition: {x: 112.61, y: -196.7157}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_SizeDelta: {x: 142.563, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394674062
@@ -10269,16 +9708,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
       - m_Target: {fileID: 1907959824}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
@@ -10291,14 +9720,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &1394674063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10396,16 +9817,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394674060}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1402857027
 GameObject:
   m_ObjectHideFlags: 0
@@ -10563,14 +9974,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402857027}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1411957254
 GameObject:
   m_ObjectHideFlags: 0
@@ -10608,8 +10011,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-=======
 --- !u!1 &1413442367
 GameObject:
   m_ObjectHideFlags: 0
@@ -11035,7 +10436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -11059,7 +10460,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490248240}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &1496558133
 GameObject:
   m_ObjectHideFlags: 0
@@ -11208,8 +10608,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496558133}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &1557859077
 GameObject:
   m_ObjectHideFlags: 0
@@ -11307,7 +10705,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557859077}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &1565580952
 GameObject:
   m_ObjectHideFlags: 0
@@ -11360,7 +10757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -11412,27 +10809,6 @@ RectTransform:
   m_GameObject: {fileID: 1565797604}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-  m_LocalScale: {x: 0.41526678, y: 0.41526678, z: 0.41526678}
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-  m_LocalScale: {x: 0.37247, y: 0.37247, z: 0.37247}
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 79891186}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-  m_AnchoredPosition: {x: 0, y: -197.83571}
-=======
-  m_AnchoredPosition: {x: 0, y: -190}
-=======
   m_LocalScale: {x: 0.41526678, y: 0.41526678, z: 0.41526678}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11442,11 +10818,6 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -197.83571}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1565797606
@@ -11505,16 +10876,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
       - m_Target: {fileID: 1907959824}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
@@ -11527,14 +10888,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &1565797607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11573,8 +10926,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565797604}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &1575241787
 GameObject:
   m_ObjectHideFlags: 0
@@ -11710,7 +11061,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575241787}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &1595288794
 GameObject:
   m_ObjectHideFlags: 0
@@ -11932,7 +11282,7 @@ Transform:
   - {fileID: 569652008}
   - {fileID: 1907959825}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1645190473
 GameObject:
@@ -12145,8 +11495,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647949920}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &1705634223
 GameObject:
   m_ObjectHideFlags: 0
@@ -12514,7 +11862,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
->>>>>>> origin/Malthe
 --- !u!1 &1825044275
 GameObject:
   m_ObjectHideFlags: 0
@@ -12825,8 +12172,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-<<<<<<< HEAD
-=======
 --- !u!1 &1872560662
 GameObject:
   m_ObjectHideFlags: 0
@@ -12930,7 +12275,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
->>>>>>> origin/Malthe
 --- !u!1 &1876335969
 GameObject:
   m_ObjectHideFlags: 0
@@ -12968,16 +12312,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1884743058
 GameObject:
   m_ObjectHideFlags: 0
@@ -13171,14 +12505,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1891842023
 GameObject:
   m_ObjectHideFlags: 0
@@ -13269,20 +12595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1894082169}
   - component: {fileID: 1894082168}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   - component: {fileID: 1894082170}
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-=======
-  - component: {fileID: 1894082170}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_Layer: 0
   m_Name: MenuController
   m_TagString: Untagged
@@ -13304,23 +12617,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settingMenu: {fileID: 138843430}
   tutorial: {fileID: 816153060}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   creditsMenu: {fileID: 970038515}
   playAnim: {fileID: 956938589}
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-  credit: {fileID: 970038515}
-=======
-  creditsMenu: {fileID: 970038515}
-  playAnim: {fileID: 956938589}
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!4 &1894082169
 Transform:
   m_ObjectHideFlags: 0
@@ -13334,18 +12632,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &1894082170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13361,14 +12649,6 @@ MonoBehaviour:
   musicMixer: {fileID: 24100000, guid: cc650bdc5ed4a3d44afc268530973026, type: 2}
   sfxMixer: {fileID: 24100000, guid: 819625a5f2f2ab043ba804cfbb43ada0, type: 2}
   ResolutionDropdown: {fileID: 398494141}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1904617655
 GameObject:
   m_ObjectHideFlags: 0
@@ -13449,13 +12729,6 @@ RectTransform:
   m_AnchoredPosition: {x: -7.5, y: -0.5}
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-=======
 --- !u!1 &1907262338
 GameObject:
   m_ObjectHideFlags: 0
@@ -13591,10 +12864,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907262338}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1907959823
 GameObject:
   m_ObjectHideFlags: 0
@@ -13723,14 +12992,6 @@ Transform:
   m_Father: {fileID: 1600456089}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1920385167
 GameObject:
   m_ObjectHideFlags: 0
@@ -13864,7 +13125,7 @@ RectTransform:
   - {fileID: 859362754}
   - {fileID: 647638968}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14100,16 +13361,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957289004}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
-<<<<<<< HEAD
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!114 &1957289008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14125,14 +13376,6 @@ MonoBehaviour:
   original: {fileID: 1957289006}
   newSprite: {fileID: 21300000, guid: 26c21a1d9be3263439008accc1d15b77, type: 3}
   oldSprite: {fileID: 21300000, guid: cbdc1aa545c64e94b87ea7e7c0afee02, type: 3}
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> origin/Malthe
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
 --- !u!1 &1962686844
 GameObject:
   m_ObjectHideFlags: 0
@@ -14209,8 +13452,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962686844}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &1970219053
 GameObject:
   m_ObjectHideFlags: 0
@@ -14308,7 +13549,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1970219053}
   m_CullTransparentMesh: 1
->>>>>>> origin/Malthe
 --- !u!1 &1971395894
 GameObject:
   m_ObjectHideFlags: 0
@@ -14482,48 +13722,16 @@ MonoBehaviour:
   m_FillRect: {fileID: 2044741093}
   m_HandleRect: {fileID: 361900250}
   m_Direction: 0
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
   m_MinValue: -30
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-  m_MinValue: -80
-=======
-  m_MinValue: -30
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
   m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
       - m_Target: {fileID: 1894082170}
         m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
         m_MethodName: setMusicVolume
-=======
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-<<<<<<< HEAD
-      - m_Target: {fileID: 138843436}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: setVolume
-=======
-      - m_Target: {fileID: 1894082170}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: setMusicVolume
->>>>>>> origin/Malthe
-<<<<<<< HEAD:GMTK22/Assets/Scenes/Menu.unity
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
-=======
->>>>>>> main:GMTK22/Assets/Scenes/Malthe.unity
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14947,8 +14155,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044741092}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &2058907763
 GameObject:
   m_ObjectHideFlags: 0
@@ -14967,7 +14173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2058907764
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15053,7 +14259,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
->>>>>>> origin/Malthe
 --- !u!1 &2060782816
 GameObject:
   m_ObjectHideFlags: 0
@@ -15266,8 +14471,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080224371}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &2117123486
 GameObject:
   m_ObjectHideFlags: 0
@@ -15304,7 +14507,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
->>>>>>> origin/Malthe
 --- !u!1 &2135438771
 GameObject:
   m_ObjectHideFlags: 0

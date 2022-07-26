@@ -24,6 +24,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Inspector
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
@@ -43,6 +44,11 @@ MonoBehaviour:
   m_MinSize: {x: 875, y: 350}
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+  m_Title: Console
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 350}
+>>>>>>> Malthe
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -92,7 +98,10 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 100
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Malthe
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +148,10 @@ MonoBehaviour:
   - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
+<<<<<<< HEAD
 >>>>>>> main
+=======
+>>>>>>> Malthe
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,11 +208,16 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: 
+=======
+  m_Name: ConsoleWindow
+>>>>>>> Malthe
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1025.6
     y: 0
     width: 510.40002
@@ -211,6 +228,20 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 16}
   m_Selected: 0
+=======
+    x: 0
+    y: 625
+    width: 1467
+    height: 322
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 20}
+  - {fileID: 13}
+  m_Selected: 1
+>>>>>>> Malthe
   m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -521,6 +552,7 @@ MonoBehaviour:
     x: 480
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1460
     height: 764
   m_MinSize: {x: 100, y: 200}
@@ -529,12 +561,15 @@ MonoBehaviour:
   controlID: 107
 --- !u!114 &10
 =======
+=======
+>>>>>>> Malthe
     width: 1467
     height: 625
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 102
+<<<<<<< HEAD
 --- !u!114 &11
 >>>>>>> origin/Malthe
 MonoBehaviour:
@@ -566,6 +601,8 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 >>>>>>> main
+=======
+>>>>>>> Malthe
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -581,6 +618,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 341.6
     y: 0
@@ -617,6 +655,19 @@ MonoBehaviour:
   - {fileID: 12}
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+    x: 504
+    y: 0
+    width: 963
+    height: 625
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 12}
+>>>>>>> Malthe
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -629,6 +680,331 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 504
+    y: 73
+    width: 961
+    height: 604
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 8274502080482126943, guid: 990af36e2573ada48a08f8195d713120, type: 2}
+    - {fileID: 4388532756958258538, guid: f7779a188702d1446b40e1f9d5d9f101, type: 2}
+    - {fileID: 7823123652164212387, guid: 03d513a1975b51c43968c56a1221f13b, type: 2}
+    - {fileID: 6912269960036609357, guid: d42cdd588e3a4d24190ef7e84e3f2f04, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.608421
+      e01: 0
+      e02: 0
+      e03: -15.421051
+      e10: 0
+      e11: 0.608421
+      e12: 0
+      e13: 176.02632
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.608421
+      e01: 0
+      e02: 0
+      e03: -15.421051
+      e10: 0
+      e11: 0.608421
+      e12: 0
+      e13: 224.7
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.70487803
+      e01: 0
+      e02: 0
+      e03: -20.243896
+      e10: 0
+      e11: 0.70487803
+      e12: 0
+      e13: 166.19513
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.608421
+      e01: 0
+      e02: 0
+      e03: -15.421051
+      e10: 0
+      e11: 0.608421
+      e12: 0
+      e13: 224.7
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: d42cdd588e3a4d24190ef7e84e3f2f04, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 6912269960036609357, guid: d42cdd588e3a4d24190ef7e84e3f2f04, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 698
+    width: 1466
+    height: 301
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -116832
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12373, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Audio Mixer
+    m_Image: {fileID: 2344599766593239149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1467
+    y: 73
+    width: 452
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_MixersTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: -103798
+    m_ExpandedIDs: 12eb343c
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 3}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_LayoutStripsOnTop:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 65
+      - 35
+      relativeSizes:
+      - 0.65
+      - 0.35000002
+      minSizes:
+      - 85
+      - 105
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 85
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_LayoutStripsOnRight:
+    m_VerticalSplitter:
+      ID: 0
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 60
+      - 60
+      - 60
+      - 60
+      relativeSizes:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+      minSizes:
+      - 100
+      - 85
+      - 85
+      - 85
+      maxSizes:
+      - 0
+      - 0
+      - 0
+      - 0
+      lastTotalSize: 0
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+    m_HorizontalSplitter:
+      ID: 21471
+      splitterInitialOffset: 0
+      currentActiveSplitter: -1
+      realSizes:
+      - 160
+      - 292
+      relativeSizes:
+      - 0.3
+      - 0.7
+      minSizes:
+      - 160
+      - 160
+      maxSizes:
+      - 0
+      - 0
+      lastTotalSize: 452
+      splitSize: 6
+      xOffset: 0
+      m_Version: 1
+      oldRealSizes: 
+      oldMinSizes: 
+      oldMaxSizes: 
+      oldSplitSize: 0
+  m_SectionOrder: 00000000030000000100000002000000
+  m_LayoutMode: 1
+  m_SortGroupsAlphabetically: 0
+  m_ShowReferencedBuses: 1
+  m_ShowBusConnections: 0
+  m_ShowBusConnectionsOfSelection: 0
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+>>>>>>> Malthe
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
 =======
@@ -968,9 +1344,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 558.4
     width: 1024.6
     height: 217
+=======
+    y: 698
+    width: 1466
+    height: 301
+>>>>>>> Malthe
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -988,12 +1370,17 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/Sound
+>>>>>>> Malthe
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 67
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
   m_LastFoldersGridSize: 67
   m_LastProjectPath: C:\Users\dexti\Dokumenter\GitHub\GMTGameJam\GMTK22
@@ -1004,6 +1391,18 @@ MonoBehaviour:
     m_SelectedIDs: 686a0000
     m_LastClickedID: 27240
     m_ExpandedIDs: 00000000686a0000726a000000ca9a3bffffff7f
+=======
+  - Assets/Sound
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\malth\Documents\GitHub\GMTGameJam\GMTK22
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 3a690000
+    m_LastClickedID: 26938
+    m_ExpandedIDs: 000000002269000000ca9a3bffffff7f
+>>>>>>> Malthe
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1031,7 +1430,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000686a0000
+=======
+    m_ExpandedIDs: 0000000022690000
+>>>>>>> Malthe
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1058,6 +1461,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 406a0000
     m_RenameOverlay:
@@ -1193,6 +1597,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+=======
+>>>>>>> Malthe
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300005c5f0000a072ffffb06d000000000000fed9ffff8a6afeffc2600000c4600000c6600000
     m_RenameOverlay:
@@ -1223,6 +1629,7 @@ MonoBehaviour:
   m_SkipHiddenPackages: 1
   m_DirectoriesAreaWidth: 207
 --- !u!114 &16
+<<<<<<< HEAD
 >>>>>>> origin/Malthe
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1662,6 +2069,8 @@ MonoBehaviour:
   m_ShowBusConnections: 0
   m_ShowBusConnectionsOfSelection: 0
 --- !u!114 &16
+=======
+>>>>>>> Malthe
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1681,10 +2090,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1025.6
     y: 73.6
     width: 509.40002
     height: 701.8
+=======
+    x: 1467
+    y: 73
+    width: 452
+    height: 926
+>>>>>>> Malthe
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1703,6 +2119,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
 --- !u!114 &17
+<<<<<<< HEAD
 =======
   m_LockTracker:
     m_IsLocked: 0
@@ -1713,6 +2130,8 @@ MonoBehaviour:
 --- !u!114 &17
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+>>>>>>> Malthe
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1752,8 +2171,11 @@ MonoBehaviour:
     y: 73
     width: 503
     height: 604
+<<<<<<< HEAD
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+>>>>>>> Malthe
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1774,10 +2196,14 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: a611ffff7412ffff9a17ffffaa17ffff3819ffff101bffff201bffff201dffff301dffff1024ffff2024ffff825fffff5061ffff5865ffff90baffffd8baffff06bcffff48d1ffff7cd1ffff28fbffff2eb00000
 =======
       m_ExpandedIDs: 3efaffff
 >>>>>>> origin/Malthe
+=======
+      m_ExpandedIDs: 3efaffff
+>>>>>>> Malthe
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1807,6 +2233,7 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &18
 =======
 <<<<<<< HEAD
@@ -1815,6 +2242,9 @@ MonoBehaviour:
 --- !u!114 &18
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+--- !u!114 &18
+>>>>>>> Malthe
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1845,17 +2275,23 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 488
     y: 81
     width: 1458
     height: 495
 =======
+=======
+>>>>>>> Malthe
     x: 504
     y: 73
     width: 961
     height: 604
+<<<<<<< HEAD
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+>>>>>>> Malthe
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2084,6 +2520,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -5.642216, y: 44.0058, z: -1.3328519}
     speed: 2
     m_Value: {x: -6.9710245, y: 43.22796, z: -1.3150913}
@@ -2098,6 +2535,11 @@ MonoBehaviour:
     m_Value: {x: 978.07245, y: -12.981499, z: 15568.08}
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+    m_Target: {x: 978.07245, y: -12.981499, z: 15568.08}
+    speed: 2
+    m_Value: {x: 978.07245, y: -12.981499, z: 15568.08}
+>>>>>>> Malthe
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2149,6 +2591,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 41.24416
     speed: 2
     m_Value: 39.468094
@@ -2163,6 +2606,11 @@ MonoBehaviour:
     m_Value: 102.354164
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+    m_Target: 102.354164
+    speed: 2
+    m_Value: 102.354164
+>>>>>>> Malthe
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2188,6 +2636,7 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &19
 =======
 <<<<<<< HEAD
@@ -2196,6 +2645,9 @@ MonoBehaviour:
 --- !u!114 &19
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+--- !u!114 &19
+>>>>>>> Malthe
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2226,17 +2678,23 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 488
     y: 81
     width: 1458
     height: 495
 =======
+=======
+>>>>>>> Malthe
     x: 504
     y: 73
     width: 961
     height: 604
+<<<<<<< HEAD
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+>>>>>>> Malthe
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2248,6 +2706,7 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 682, y: 442.8}
 =======
 <<<<<<< HEAD
@@ -2256,6 +2715,9 @@ MonoBehaviour:
   m_TargetSize: {x: 961, y: 583}
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+  m_TargetSize: {x: 961, y: 583}
+>>>>>>> Malthe
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2271,6 +2733,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -272.80002
     m_HBaseRangeMax: 272.80002
     m_VBaseRangeMin: -177.12
@@ -2282,12 +2745,17 @@ MonoBehaviour:
     m_VBaseRangeMin: -237
     m_VBaseRangeMax: 237
 =======
+=======
+>>>>>>> Malthe
     m_HBaseRangeMin: -480.5
     m_HBaseRangeMax: 480.5
     m_VBaseRangeMin: -291.5
     m_VBaseRangeMax: 291.5
+<<<<<<< HEAD
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+>>>>>>> Malthe
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2306,6 +2774,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 682
       height: 442.8
     m_Scale: {x: 1, y: 1}
@@ -2323,12 +2792,19 @@ MonoBehaviour:
     m_Translation: {x: 480.5, y: 291.5}
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+      width: 961
+      height: 583
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 480.5, y: 291.5}
+>>>>>>> Malthe
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -341
       y: -221.4
@@ -2356,11 +2832,21 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 961, y: 604}
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+      x: -480.5
+      y: -291.5
+      width: 961
+      height: 583
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 961, y: 604}
+>>>>>>> Malthe
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2507,6 +2993,8 @@ MonoBehaviour:
 =======
 >>>>>>> origin/Malthe
 >>>>>>> main
+=======
+>>>>>>> Malthe
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2538,16 +3026,22 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 8
     y: 845
     width: 1939
     height: 506
 =======
+=======
+>>>>>>> Malthe
     x: 0
     y: 698
     width: 1466
     height: 301
+<<<<<<< HEAD
 >>>>>>> origin/Malthe
+=======
+>>>>>>> Malthe
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

@@ -8,6 +8,7 @@ TagManager:
   - Key
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Chopper
   - Lift
   - Power
@@ -15,6 +16,8 @@ TagManager:
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+>>>>>>> Malthe
   layers:
   - Default
   - TransparentFX

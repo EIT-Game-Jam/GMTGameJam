@@ -8,6 +8,7 @@ EditorBuildSettings:
   - enabled: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     path: Assets/Scenes/Menu.unity
     guid: c44062464c628794fbf2e452c5607113
   - enabled: 1
@@ -15,13 +16,18 @@ EditorBuildSettings:
 =======
 =======
 >>>>>>> main
+=======
+>>>>>>> Malthe
     path: Assets/Scenes/Malthe.unity
     guid: c44062464c628794fbf2e452c5607113
   - enabled: 1
     path: Assets/Scenes/Emil.unity
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+>>>>>>> Malthe
     guid: 626396cc2654c5f4d84c17ff8128fa48
   m_configObjects: {}

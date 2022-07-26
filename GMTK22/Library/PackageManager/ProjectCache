@@ -7,6 +7,7 @@ m_ProjectFiles:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       ticks: 637936150417432958
     m_Hash: 2526986484
 =======
@@ -22,12 +23,17 @@ m_ProjectFiles:
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+      ticks: 637936495266397608
+    m_Hash: 884535303
+>>>>>>> Malthe
   m_LockFileStatus:
     m_FilePath: C:/Users/dexti/Dokumenter/GitHub/GMTGameJam/GMTK22/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       ticks: 637936150417492984
@@ -45,6 +51,10 @@ m_ProjectFiles:
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+      ticks: 637936495266397608
+    m_Hash: 1583597519
+>>>>>>> Malthe
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -528,6 +538,7 @@ m_ResolvedPackages:
   source: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   resolvedPath: C:\Users\dexti\Dokumenter\GitHub\GMTGameJam\GMTK22\Library\PackageCache\com.unity.inputsystem@1.3.0
 =======
 <<<<<<< HEAD
@@ -541,6 +552,9 @@ m_ResolvedPackages:
 >>>>>>> main
 =======
 >>>>>>> main
+=======
+  resolvedPath: C:\Users\malth\Documents\GitHub\GMTGameJam\GMTK22\Library\PackageCache\com.unity.inputsystem@1.3.0
+>>>>>>> Malthe
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
